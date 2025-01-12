@@ -1,14 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TechStore.Data
+namespace TechStore.Models
 {
-    [Table("Product")]
-    public class Product
+    public class PaymentMethod
     {
         public int Id { get; set; }
-        [Required]
-        public string Name { get; set; }
 
+        [Required]
+        [MaxLength(50)]
+        public string Name { get; set; }
+        [Required]
+
+      
+        public Order? Order { get; set; }
     }
 }

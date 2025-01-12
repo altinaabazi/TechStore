@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TechStore.Data;
 
@@ -11,9 +12,11 @@ using TechStore.Data;
 namespace TechStore.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250112215527_added-tables")]
+    partial class addedtables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -336,22 +339,18 @@ namespace TechStore.Data.Migrations
                     b.Property<int>("OrderStatusId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PaymentMethodId")
+                    b.Property<string>("PaymentMethod")
+                        .IsRequired()
                         .HasMaxLength(30)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OrderStatusId");
-
-                    b.HasIndex("PaymentMethodId")
-                        .IsUnique();
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Order");
                 });
@@ -406,24 +405,6 @@ namespace TechStore.Data.Migrations
                     b.ToTable("OrderStatus");
                 });
 
-            modelBuilder.Entity("TechStore.Models.PaymentMethod", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("PaymentMethod");
-                });
-
             modelBuilder.Entity("TechStore.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -471,11 +452,9 @@ namespace TechStore.Data.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("ShoppingCart");
                 });
@@ -580,23 +559,7 @@ namespace TechStore.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TechStore.Models.PaymentMethod", "PaymentMethod")
-                        .WithOne("Order")
-                        .HasForeignKey("TechStore.Models.Order", "PaymentMethodId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("TechStore.Data.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("OrderStatus");
-
-                    b.Navigation("PaymentMethod");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("TechStore.Models.OrderDetail", b =>
@@ -637,17 +600,6 @@ namespace TechStore.Data.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("TechStore.Models.ShoppingCart", b =>
-                {
-                    b.HasOne("TechStore.Data.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("TechStore.Models.Stock", b =>
                 {
                     b.HasOne("TechStore.Models.Product", "Product")
@@ -672,12 +624,6 @@ namespace TechStore.Data.Migrations
             modelBuilder.Entity("TechStore.Models.Order", b =>
                 {
                     b.Navigation("OrderDetail");
-                });
-
-            modelBuilder.Entity("TechStore.Models.PaymentMethod", b =>
-                {
-                    b.Navigation("Order")
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("TechStore.Models.Product", b =>
