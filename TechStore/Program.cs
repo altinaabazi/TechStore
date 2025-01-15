@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 using static System.Formats.Asn1.AsnWriter;
+using TechStore.Repositories;
+using TechStore;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -17,6 +19,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddDefaultTokenProviders();
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -41,4 +44,12 @@ using (var scope = app.Services.CreateScope())
 {
     await DbSeeder.SeedRolesAndAdminAsync(scope.ServiceProvider);
 }
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+});
+
 app.Run();

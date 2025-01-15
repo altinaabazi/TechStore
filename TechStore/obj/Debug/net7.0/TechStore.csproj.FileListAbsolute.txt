@@ -585,3 +585,4 @@ C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\obj\Debug\net7.0\refint\TechS
 C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\obj\Debug\net7.0\TechStore.pdb
 C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\obj\Debug\net7.0\TechStore.genruntimeconfig.cache
 C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\obj\Debug\net7.0\ref\TechStore.dll
+C:\Users\altin\OneDrive\Desktop\TechStore\TechStore\obj\Debug\net7.0\TechStore.sourcelink.json

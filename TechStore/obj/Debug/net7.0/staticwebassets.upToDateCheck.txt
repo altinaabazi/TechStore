@@ -1,5 +1,8 @@
+wwwroot\css\bootstrap.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\laptop.jpg
+wwwroot\images\noimage.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -58,3 +61,4 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Uploads\e270bae7-a1df-40fc-99c7-a19350899f0e.png
