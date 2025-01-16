@@ -29,8 +29,7 @@ namespace TechStore.Models
         public string? Address { get; set; }
         [Required]
         [MaxLength(30)]
-        public int PaymentMethodId { get; set; }
-        public PaymentMethod PaymentMethod { get; set; }
+        public string? PaymentMethod { get; set; }
         public bool IsPaid { get; set; }
 
         public OrderStatus OrderStatus { get; set; }

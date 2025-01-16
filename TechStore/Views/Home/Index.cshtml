@@ -43,27 +43,51 @@
 <div class="w-100 mt-4 d-flex flex-wrap ">
   @foreach (var products in Model.Products)
     {
-        <div class="card mx-2 mb-4" style="width: 16rem;">
+        <div class="card mx-2 mb-4" style="width: 11rem;">
             @if (string.IsNullOrEmpty(products.Image))
             {
-                <img style="width:100%;height:300px" src="/images/NoImage.png" class="card-img-top" alt="...">
+                <img style="width:100%;height:180px" src="/images/NoImage.png" class="card-img-top" alt="...">
             }
             else {
-                <img style="width:100%;height:300px" src="/images/@products.Image" class="card-img-top" alt="...">
+                <img style="width:100%;height:180px" src="/images/@products.Image" class="card-img-top" alt="...">
             }
             <div class="card-body">
                 <h5 class="card-title">@products.ProductName</h5>
                 <p class="card-text">
-                    Category:@products.Category
-                    </p>
-
-                <p>  Price:@products.Price </p>
-                <p>
-                    Brand:@products.BrandName
+                    <b>Category:</b>@products.Category <br />
+                <b>Price: </b>@products.Price  <br />
+                <b>Brand: </b>@products.BrandName 
                 </p>
+
                 
-               <a href="#" class="btn btn-primary">Add to cart</a>
+                <button type="button" onclick="add(@products.Id)" class="btn btn-primary">Add to cart</button>
             </div>
         </div>
         }
 </div>
+@section Scripts{
+    <script>
+        async function add(productId) {
+             var usernameEl = document.getElementById("username");
+        if(usernameEl==null){
+            window.location.href = "/Identity/Account/Login";
+          //var username=usernameEl.innerText;
+          //  if(username.length<1){
+          //      window.location.href="/Identity/Account/Login";
+          //  }
+        }
+            try {
+                var response = await fetch(`/Cart/AddItem?productId=${productId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                    window.location.href = "#cartCount";
+                }
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+    </script>
+}
