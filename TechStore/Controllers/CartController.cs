@@ -22,9 +22,9 @@ namespace TechStore.Controllers
             return RedirectToAction("GetUserCart");
         }
 
-        public async Task<IActionResult> RemoveItem(int bookId)
+        public async Task<IActionResult> RemoveItem(int productId)
         {
-            var cartCount = await _cartRepo.RemoveItem(bookId);
+            var cartCount = await _cartRepo.RemoveItem(productId);
             return RedirectToAction("GetUserCart");
         }
         public async Task<IActionResult> GetUserCart()
