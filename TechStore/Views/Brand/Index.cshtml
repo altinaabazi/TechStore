@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Brand>
+@{
+}
+
+<h2>Brands</h2>
+
+<a asp-action="AddBrand" asp-controller="Brand" class="btn btn-primary">Add More</a>
+
+<table class="table table-striped my-2">
+    <tr>
+        <th>Brand</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var brand in Model)
+    {
+        <tr>
+            <td>@brand.Name</td>
+            <td>
+                <a asp-action="UpdateBrand" asp-controller="Brand" asp-route-id="@brand.Id" class="btn btn-success">Edit</a>
+                <a asp-action="DeleteBrand" asp-controller="Brand" asp-route-id="@brand.Id" class="btn btn-danger" onclick="return window.confirm('Are you sure?')">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

@@ -3,6 +3,7 @@ using TechStore.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
+
 using static System.Formats.Asn1.AsnWriter;
 using TechStore.Repositories;
 using TechStore;
@@ -21,6 +22,11 @@ builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 builder.Services.AddTransient<ICartRepository, CartRepository>();
+builder.Services.AddTransient<IBrandRepository, BrandRepository>();
+builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
+
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -37,6 +43,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "TechStore API v1");
+});
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

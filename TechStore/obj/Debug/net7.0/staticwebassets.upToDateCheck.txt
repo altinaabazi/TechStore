@@ -3,6 +3,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\laptop.jpg
 wwwroot\images\noimage.jpg
+wwwroot\images\products\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -62,3 +63,4 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\Uploads\e270bae7-a1df-40fc-99c7-a19350899f0e.png
+wwwroot\Uploads\foto.jpg

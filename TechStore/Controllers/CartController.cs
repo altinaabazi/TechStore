@@ -22,6 +22,7 @@ namespace TechStore.Controllers
             return RedirectToAction("GetUserCart");
         }
 
+        
         public async Task<IActionResult> RemoveItem(int productId)
         {
             var cartCount = await _cartRepo.RemoveItem(productId);

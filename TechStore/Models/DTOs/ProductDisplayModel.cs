@@ -6,6 +6,8 @@ namespace TechStore.Models.DTOs
     {
         public IEnumerable<Product> Products { get; set; }
         public IEnumerable<Brand> Brands { get; set; }
+        public IEnumerable<Category> Categories { get; set; }
+
         public string STerm { get; set; } = "";
         public int BrandId { get; set; } = 0;
     }
