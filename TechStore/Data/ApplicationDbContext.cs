@@ -17,6 +17,7 @@ namespace TechStore.Data
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<CartDetail> CartDetails { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<CountryOrder> CountryOrders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
 
         public DbSet<OrderStatus> orderStatuses { get; set; }

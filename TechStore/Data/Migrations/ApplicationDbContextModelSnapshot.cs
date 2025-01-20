@@ -297,6 +297,23 @@ namespace TechStore.Data.Migrations
                     b.ToTable("Category");
                 });
 
+            modelBuilder.Entity("TechStore.Models.CountryOrder", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CountryOrders");
+                });
+
             modelBuilder.Entity("TechStore.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -309,6 +326,9 @@ namespace TechStore.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
+
+                    b.Property<int?>("CountryOrderId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
@@ -336,9 +356,10 @@ namespace TechStore.Data.Migrations
                     b.Property<int>("OrderStatusId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PaymentMethodId")
+                    b.Property<string>("PaymentMethod")
+                        .IsRequired()
                         .HasMaxLength(30)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -346,10 +367,9 @@ namespace TechStore.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderStatusId");
+                    b.HasIndex("CountryOrderId");
 
-                    b.HasIndex("PaymentMethodId")
-                        .IsUnique();
+                    b.HasIndex("OrderStatusId");
 
                     b.HasIndex("UserId");
 
@@ -404,24 +424,6 @@ namespace TechStore.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("OrderStatus");
-                });
-
-            modelBuilder.Entity("TechStore.Models.PaymentMethod", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("PaymentMethod");
                 });
 
             modelBuilder.Entity("TechStore.Models.Product", b =>
@@ -574,15 +576,13 @@ namespace TechStore.Data.Migrations
 
             modelBuilder.Entity("TechStore.Models.Order", b =>
                 {
+                    b.HasOne("TechStore.Models.CountryOrder", null)
+                        .WithMany("Orders")
+                        .HasForeignKey("CountryOrderId");
+
                     b.HasOne("TechStore.Models.OrderStatus", "OrderStatus")
                         .WithMany()
                         .HasForeignKey("OrderStatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("TechStore.Models.PaymentMethod", "PaymentMethod")
-                        .WithOne("Order")
-                        .HasForeignKey("TechStore.Models.Order", "PaymentMethodId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -593,8 +593,6 @@ namespace TechStore.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("OrderStatus");
-
-                    b.Navigation("PaymentMethod");
 
                     b.Navigation("User");
                 });
@@ -669,15 +667,14 @@ namespace TechStore.Data.Migrations
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("TechStore.Models.CountryOrder", b =>
+                {
+                    b.Navigation("Orders");
+                });
+
             modelBuilder.Entity("TechStore.Models.Order", b =>
                 {
                     b.Navigation("OrderDetail");
-                });
-
-            modelBuilder.Entity("TechStore.Models.PaymentMethod", b =>
-                {
-                    b.Navigation("Order")
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("TechStore.Models.Product", b =>

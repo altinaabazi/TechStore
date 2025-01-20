@@ -53,7 +53,7 @@ namespace TechStore.Repositories
                         ProductId = productId,
                         ShoppingCartId = cart.Id,
                         Quantity = qty,
-                        //UnitPrice = product.Price  
+                        UnitPrice = product.Price
                     };
                     _db.CartDetails.Add(cartItem);
                 }
@@ -104,13 +104,18 @@ namespace TechStore.Repositories
             if (userId == null)
                 throw new InvalidOperationException("Invalid userid");
             var shoppingCart = await _db.ShoppingCarts
-                                  .Include(a => a.CartDetails)
-                                  .ThenInclude(a => a.Product)
-                                  .ThenInclude(a => a.Stock)
-                                  .Include(a => a.CartDetails)
-                                  .ThenInclude(a => a.Product)
-                                  .ThenInclude(a => a.Brand)
-                                  .Where(a => a.UserId == userId).FirstOrDefaultAsync();
+                           .Include(a => a.CartDetails)
+                           .ThenInclude(a => a.Product)
+                           .ThenInclude(a => a.Stock)
+                           .Include(a => a.CartDetails)
+                           .ThenInclude(a => a.Product)
+                           .ThenInclude(a => a.Brand) 
+                           .Include(a => a.CartDetails)
+                           .ThenInclude(a => a.Product)
+                           .ThenInclude(a => a.Category) 
+                           .Where(a => a.UserId == userId)
+                           .FirstOrDefaultAsync();
+
             return shoppingCart;
 
         }
