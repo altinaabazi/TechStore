@@ -18,14 +18,15 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultUI()
             .AddDefaultTokenProviders();
-builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 builder.Services.AddTransient<ICartRepository, CartRepository>();
-builder.Services.AddTransient<IBrandRepository, BrandRepository>();
-builder.Services.AddTransient<ICountryOrderRepository, CountryOrderRepository>();
-builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
+builder.Services.AddTransient<IFileService, FileService>();
 builder.Services.AddTransient<IUserOrderRepository, UserOrderRepository>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
+builder.Services.AddTransient<IStockRepository, StockRepository>();
+builder.Services.AddTransient<IBrandRepository, BrandRepository>();
 
 
 builder.Services.AddSwaggerGen();

@@ -1,6 +1,19 @@
 wwwroot\css\bootstrap.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg
+wwwroot\images\0a7267c0-933b-4656-8085-f051b9eeaa50.jpg
+wwwroot\images\22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg
+wwwroot\images\3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg
+wwwroot\images\60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg
+wwwroot\images\601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg
+wwwroot\images\7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg
+wwwroot\images\a9b100da-0626-497a-b2dd-63e7afb11127.jpg
+wwwroot\images\b2ea0619-c2b3-4771-b508-078963f34ee0.jpg
+wwwroot\images\b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg
+wwwroot\images\e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg
+wwwroot\images\faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg
+wwwroot\images\fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg
 wwwroot\images\laptop.jpg
 wwwroot\images\noimage.jpg
 wwwroot\images\products\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png
@@ -62,5 +75,6 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Uploads\5a4164aa-b242-4916-ad67-454a57dad065.jpg
 wwwroot\Uploads\e270bae7-a1df-40fc-99c7-a19350899f0e.png
 wwwroot\Uploads\foto.jpg

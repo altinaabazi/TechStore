@@ -4,16 +4,16 @@ namespace TechStore.Services
 {
     public class FileService : IFileService
     {
-        IWebHostEnvironment environment;
-        public FileService(IWebHostEnvironment env)
+        private readonly IWebHostEnvironment _environment;
+        public FileService(IWebHostEnvironment environment)
         {
-            environment = env;
+            _environment = environment;
         }
         public Tuple<int, string> SaveImage(IFormFile imageFile)
         {
             try
             {
-                var wwwPath = this.environment.WebRootPath;
+                var wwwPath = this._environment.WebRootPath;
                 var path = Path.Combine(wwwPath, "Uploads");
                 if (!Directory.Exists(path))
                 {
@@ -41,11 +41,30 @@ namespace TechStore.Services
                 return new Tuple<int, string>(0, "Error has occured");
             }
         }
+        public async Task<string> SaveFile(IFormFile file, string[] allowedExtensions)
+        {
+            var wwwPath = _environment.WebRootPath;
+            var path = Path.Combine(wwwPath, "images");
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            var extension = Path.GetExtension(file.FileName);
+            if (!allowedExtensions.Contains(extension))
+            {
+                throw new InvalidOperationException($"Only {string.Join(",", allowedExtensions)} files allowed");
+            }
+            string fileName = $"{Guid.NewGuid()}{extension}";
+            string fileNameWithPath = Path.Combine(path, fileName);
+            using var stream = new FileStream(fileNameWithPath, FileMode.Create);
+            await file.CopyToAsync(stream);
+            return fileName;
+        }
         public bool DeleteImage(string imageFileName)
         {
             try
             {
-                var wwwPath = this.environment.WebRootPath;
+                var wwwPath = this._environment.WebRootPath;
                 var path = Path.Combine(wwwPath, "Uploads\\", imageFileName);
                 if (System.IO.File.Exists(path))
                 {

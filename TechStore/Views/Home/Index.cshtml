@@ -54,13 +54,20 @@
             <div class="card-body">
                 <h5 class="card-title">@products.ProductName</h5>
                 <p class="card-text">
-                    <b>Category:</b>@products.Category <br />
+                    <b>Category:</b>@products.CategoryName <br />
                 <b>Price: </b>@products.Price  <br />
-                <b>Brand: </b>@products.BrandName 
+                    <b>Brand: </b>@products.BrandName <br />
                 </p>
+                @if (products.Quantity > 0)
+                {
+                    <button type="button" onclick="add(@products.Id)" class="btn btn-primary">Add to cart</button>
+                }
+                else
+                {
+                    <span style="border: 1px solid;padding: 5px 8px;color: red;border-radius: 5px;">Out of stock</span>
+                }
 
                 
-                <button type="button" onclick="add(@products.Id)" class="btn btn-primary">Add to cart</button>
             </div>
         </div>
         }

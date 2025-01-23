@@ -30,8 +30,11 @@ namespace TechStore.Models
         public List<CartDetail> CartDetail { get; set; }
         public Stock Stock { get; set; }
 
+
         [NotMapped]
         public string BrandName { get; set; }
+        [NotMapped]
+        public string CategoryName { get; set; }
         [NotMapped]
         public int Quantity { get; set; }
     }
