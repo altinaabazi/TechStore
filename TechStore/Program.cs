@@ -2,11 +2,12 @@ using TechStore.Data;
 using TechStore.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 using static System.Formats.Asn1.AsnWriter;
 using TechStore.Repositories;
 using TechStore;
+using Newtonsoft.Json.Linq;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -30,6 +31,9 @@ builder.Services.AddTransient<IBrandRepository, BrandRepository>();
 
 
 builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen();
+// Aktivizo Swagger
+
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -54,6 +58,7 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "TechStore API v1");
 });
 
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
@@ -65,7 +70,7 @@ using (var scope = app.Services.CreateScope())
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
-      name: "areas",
+      name: "Admin",
       pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
     );
 });

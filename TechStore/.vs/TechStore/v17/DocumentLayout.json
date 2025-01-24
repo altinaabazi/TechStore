@@ -1,265 +1,313 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\",
+  "WorkspaceRootPath": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\stock\\manangestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\stock\\manangestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\stockdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\stockdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\userordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\userordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\data\\migrations\\20250123153938_updatestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\migrations\\20250123153938_updatestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\stock\\manangestock.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\stock\\manangestock.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\cart\\getusercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\cart\\getusercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\homerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\homerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\updateorderstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\updateorderstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\dtos\\checkoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\checkoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\userorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\userorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\orderstatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\orderstatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\countryorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\countryorder\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\countryorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\countryorder\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\countryorder\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\countryordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\countryordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\orderstatus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\orderstatus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\orderstatus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\orderstatus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\countryorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\countryorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\controllers\\orderstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\orderstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\repositories\\iuserorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\iuserorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\constants\\paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\admin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\admin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\countryordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\countryordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\stock\\manangestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\stock\\manangestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\stockdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\stockdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\userordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\userordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\data\\migrations\\20250123153938_updatestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\migrations\\20250123153938_updatestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\stock\\manangestock.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\stock\\manangestock.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\cart\\getusercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\cart\\getusercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\homerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\homerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\updateorderstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\updateorderstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\dtos\\checkoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\dtos\\checkoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\userorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\userorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\orderstatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\orderstatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\countryorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\countryorder\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\countryorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\countryorder\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\countryorder\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\countryorder\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\orderstatus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\orderstatus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\orderstatus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\orderstatus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\models\\countryorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:models\\countryorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\controllers\\orderstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:controllers\\orderstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\repositories\\iuserorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:repositories\\iuserorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\constants\\paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:constants\\paymentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\cart\\orderfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\cart\\orderfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\cart\\orderfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\views\\userorder\\userorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\views\\userorder\\userorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:views\\userorder\\userorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\data\\migrations\\20250120000356_ordercountryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\data\\migrations\\20250120000356_ordercountryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\migrations\\20250120000356_ordercountryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\data\\migrations\\20250120000705_ordercountryn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\data\\migrations\\20250120000705_ordercountryn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\migrations\\20250120000705_ordercountryn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\altin\\onedrive\\desktop\\techstore\\techstore\\data\\migrations\\20250120000140_ordercountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|c:\\users\\erjon\\desktop\\techstore\\techstore\\data\\migrations\\20250120000140_ordercountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F8E9D-3720-42FC-A578-146B30C96104}|TechStore.csproj|solutionrelative:data\\migrations\\20250120000140_ordercountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -276,548 +324,737 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T22:58:40.532Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Stock.cs",
-              "RelativeDocumentMoniker": "Models\\Stock.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Stock.cs",
-              "RelativeToolTip": "Models\\Stock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:11:48.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA/wCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:33:08.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Stock\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Stock\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Stock\\Index.cshtml",
-              "RelativeToolTip": "Views\\Stock\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T23:54:41.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserOrderController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\UserOrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserOrderController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\UserOrderController.cs",
-              "RelativeToolTip": "Controllers\\UserOrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:02:44.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManangeStock.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml",
-              "RelativeDocumentMoniker": "Views\\Stock\\ManangeStock.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml",
-              "RelativeToolTip": "Views\\Stock\\ManangeStock.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-23T00:23:40.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StockController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\StockController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StockController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\StockController.cs",
-              "RelativeToolTip": "Controllers\\StockController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwC0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T23:52:53.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StockDisplayModel.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDisplayModel.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\StockDisplayModel.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDisplayModel.cs",
-              "RelativeToolTip": "Models\\DTOs\\StockDisplayModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T23:45:46.641Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T01:07:20.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StockDTO.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\StockDTO.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\StockDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswCIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T23:44:10.867Z",
+              "WhenOpened": "2025-01-19T23:21:26.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:21:39.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\StockRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StockRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\StockRepository.cs",
-              "RelativeToolTip": "Repositories\\StockRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwD0AAAABAAAAAAAAAA==",
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Models\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "Models\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T23:47:45.91Z",
+              "WhenOpened": "2025-01-19T23:21:57.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA2wCQAAAAJAAAAAAAAAA==",
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAcAAADgmZmZmVkqwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:54:58.886Z",
+              "WhenOpened": "2025-01-23T22:33:58.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BrandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\BrandRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\BrandRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\BrandRepository.cs",
-              "RelativeToolTip": "Repositories\\BrandRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvw0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:02:28.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20250123153938_UpdateStock.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250123153938_UpdateStock.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20250123153938_UpdateStock.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250123153938_UpdateStock.cs",
-              "RelativeToolTip": "Data\\Migrations\\20250123153938_UpdateStock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T15:39:39.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAhwPgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:02:53.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAB8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T23:57:11.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\CartRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CartRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\CartRepository.cs",
-              "RelativeToolTip": "Repositories\\CartRepository.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAwwMoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T01:42:40.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ManangeStock.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml.cs",
-              "RelativeDocumentMoniker": "Views\\Stock\\ManangeStock.cshtml.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml.cs",
-              "RelativeToolTip": "Views\\Stock\\ManangeStock.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T00:57:54.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-23T00:15:19.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GetUserCart.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\GetUserCart.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\GetUserCart.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\GetUserCart.cshtml",
-              "RelativeToolTip": "Views\\Cart\\GetUserCart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-23T00:33:53.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\HomeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\HomeRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\HomeRepository.cs",
-              "RelativeToolTip": "Repositories\\HomeRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:41:27.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Program.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T01:06:03.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Product\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\AddProduct.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Product\\AddProduct.cshtml",
-              "RelativeToolTip": "Views\\Product\\AddProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T02:38:54.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICartRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\ICartRepository.cs",
-              "RelativeToolTip": "Repositories\\ICartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Admin\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Admin\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Admin\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\admin\\Views\\Admin\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:41:31.18Z",
+              "WhenOpened": "2025-01-23T21:19:50.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:37:44.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:16:54.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Brand.cs",
-              "RelativeToolTip": "Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:31:57.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAoAAADAmZmZmZkuwAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T02:42:25.529Z",
+              "WhenOpened": "2025-01-23T21:18:37.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvyQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:10:13.2Z",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAADwv2kAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T22:31:01.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UpdateOrderStatusModel.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\UpdateOrderStatusModel.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\UpdateOrderStatusModel.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\UpdateOrderStatusModel.cs",
-              "RelativeToolTip": "Models\\DTOs\\UpdateOrderStatusModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\admin\\controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\controllers\\AdminController.cs",
+              "RelativeToolTip": "Areas\\admin\\controllers\\AdminController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAMAlwCcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T01:12:53.075Z",
+              "WhenOpened": "2025-01-23T20:51:30.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T23:57:11.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAADwvyoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T22:32:32.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T22:41:45.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T22:32:43.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T21:35:33.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T22:10:37.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T22:32:46.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Areas\\admin\\models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\admin\\models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Areas\\admin\\models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T21:59:24.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManangeStock.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml",
+              "RelativeDocumentMoniker": "Views\\Stock\\ManangeStock.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml",
+              "RelativeToolTip": "Views\\Stock\\ManangeStock.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T00:23:40.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\StockController.cs",
+              "RelativeToolTip": "Controllers\\StockController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:52:53.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:02:53.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "UpdateProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Product\\UpdateProduct.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\UpdateProduct.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Product\\UpdateProduct.cshtml",
-              "RelativeToolTip": "Views\\Product\\UpdateProduct.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T02:56:34.032Z",
+              "Title": "UserOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\UserOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserOrderController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\UserOrderController.cs",
+              "RelativeToolTip": "Controllers\\UserOrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:02:44.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CountryOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\CountryOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CountryOrderController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\CountryOrderController.cs",
+              "RelativeToolTip": "Controllers\\CountryOrderController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T00:28:22.021Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Stock\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Stock\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Stock\\Index.cshtml",
+              "RelativeToolTip": "Views\\Stock\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T23:54:41.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:33:08.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Stock.cs",
+              "RelativeToolTip": "Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:11:48.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:58:40.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StockDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDisplayModel.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\StockDisplayModel.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDisplayModel.cs",
+              "RelativeToolTip": "Models\\DTOs\\StockDisplayModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:45:46.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\StockDTO.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\StockDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\StockDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:44:10.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\StockRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\StockRepository.cs",
+              "RelativeToolTip": "Repositories\\StockRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:47:45.91Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T01:17:35.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Brand\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Brand\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Brand\\Index.cshtml",
-              "RelativeToolTip": "Views\\Brand\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T01:14:05.498Z",
-              "EditorCaption": ""
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:54:58.886Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Services\\IFileService.cs",
-              "RelativeDocumentMoniker": "Services\\IFileService.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Services\\IFileService.cs",
-              "RelativeToolTip": "Services\\IFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BrandRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\BrandRepository.cs",
+              "RelativeToolTip": "Repositories\\BrandRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvw0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:07:47.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T02:02:28.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "Services\\FileService.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Services\\FileService.cs",
-              "RelativeToolTip": "Services\\FileService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwA0AAAAPAAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "20250123153938_UpdateStock.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250123153938_UpdateStock.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250123153938_UpdateStock.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250123153938_UpdateStock.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250123153938_UpdateStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:30:41.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T15:39:39.152Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "BrandDTO.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\BrandDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\BrandDTO.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\BrandDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\BrandDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Repositories\\CartRepository.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAwwMoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:47:39.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T01:42:40.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\CategoryDTO.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\CategoryDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\CategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "ManangeStock.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Stock\\ManangeStock.cshtml.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Stock\\ManangeStock.cshtml.cs",
+              "RelativeToolTip": "Views\\Stock\\ManangeStock.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:31:39.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T00:14:41.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T00:57:54.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\BrandController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\BrandController.cs",
-              "RelativeToolTip": "Controllers\\BrandController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwJ8AAAAVAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T00:15:19.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetUserCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\GetUserCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\GetUserCart.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\GetUserCart.cshtml",
+              "RelativeToolTip": "Views\\Cart\\GetUserCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T00:33:53.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\HomeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\HomeRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\HomeRepository.cs",
+              "RelativeToolTip": "Repositories\\HomeRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:13:02.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T23:41:27.176Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAiwIMAAAAzAAAAAAAAAA==",
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T02:38:54.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICartRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\ICartRepository.cs",
+              "RelativeToolTip": "Repositories\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:56:54.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T23:41:31.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:37:44.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "CheckoutModel.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\CheckoutModel.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\CheckoutModel.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\DTOs\\CheckoutModel.cs",
-              "RelativeToolTip": "Models\\DTOs\\CheckoutModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T01:41:32.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T01:16:54.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:31:57.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T02:42:25.529Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "UserOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\UserOrderRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserOrderRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\UserOrderRepository.cs",
-              "RelativeToolTip": "Repositories\\UserOrderRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T01:03:58.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T02:10:13.2Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
+              "Title": "UpdateOrderStatusModel.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\UpdateOrderStatusModel.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UpdateOrderStatusModel.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\UpdateOrderStatusModel.cs",
+              "RelativeToolTip": "Models\\DTOs\\UpdateOrderStatusModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:12:53.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T02:56:34.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T01:17:35.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T01:14:05.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Services\\IFileService.cs",
+              "RelativeDocumentMoniker": "Services\\IFileService.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Services\\IFileService.cs",
+              "RelativeToolTip": "Services\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:07:47.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Services\\FileService.cs",
+              "RelativeToolTip": "Services\\FileService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:30:41.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BrandDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\BrandDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\BrandDTO.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\BrandDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\BrandDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:47:39.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:31:39.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T00:14:41.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Controllers\\BrandController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwJ8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:13:02.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAiwIMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:56:54.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CheckoutModel.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\CheckoutModel.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CheckoutModel.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\DTOs\\CheckoutModel.cs",
+              "RelativeToolTip": "Models\\DTOs\\CheckoutModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:41:32.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UserOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\UserOrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\UserOrderRepository.cs",
+              "RelativeToolTip": "Repositories\\UserOrderRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:03:58.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\CountryOrder\\Details.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Details.cshtml",
               "RelativeToolTip": "Views\\CountryOrder\\Details.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -825,36 +1062,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "Models\\OrderStatus.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\OrderStatus.cs",
-              "RelativeToolTip": "Models\\OrderStatus.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvwkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:21:57.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 60,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\CountryOrder\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Edit.cshtml",
               "RelativeToolTip": "Views\\CountryOrder\\Edit.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAWwA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T00:58:10.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T00:58:10.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 62,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\CountryOrder\\Create.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Create.cshtml",
               "RelativeToolTip": "Views\\CountryOrder\\Create.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -862,37 +1086,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderStatus\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Index.cshtml",
               "RelativeToolTip": "Views\\OrderStatus\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T01:19:53.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T01:19:53.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\CountryOrder\\Index.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Index.cshtml",
               "RelativeToolTip": "Views\\CountryOrder\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T00:58:40.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T00:58:40.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 63,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\CountryOrder\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\CountryOrder\\Delete.cshtml",
               "RelativeToolTip": "Views\\CountryOrder\\Delete.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -900,24 +1122,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-20T01:07:20.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 64,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderStatus\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Delete.cshtml",
               "RelativeToolTip": "Views\\OrderStatus\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -925,23 +1134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "CountryOrderController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\CountryOrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CountryOrderController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\CountryOrderController.cs",
-              "RelativeToolTip": "Controllers\\CountryOrderController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvxYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T00:28:22.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 65,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderStatus\\Create.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\OrderStatus\\Create.cshtml",
               "RelativeToolTip": "Views\\OrderStatus\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -949,11 +1146,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 66,
               "Title": "CountryOrder.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\CountryOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\CountryOrder.cs",
               "RelativeDocumentMoniker": "Models\\CountryOrder.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\CountryOrder.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Models\\CountryOrder.cs",
               "RelativeToolTip": "Models\\CountryOrder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -961,11 +1158,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 74,
               "Title": "20250120000356_orderCountryU.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000356_orderCountryU.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000356_orderCountryU.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20250120000356_orderCountryU.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000356_orderCountryU.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000356_orderCountryU.cs",
               "RelativeToolTip": "Data\\Migrations\\20250120000356_orderCountryU.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -973,11 +1170,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 67,
               "Title": "OrderStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\OrderStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\OrderStatusController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderStatusController.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Controllers\\OrderStatusController.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Controllers\\OrderStatusController.cs",
               "RelativeToolTip": "Controllers\\OrderStatusController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -985,11 +1182,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 75,
               "Title": "20250120000705_orderCountryN.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000705_orderCountryN.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000705_orderCountryN.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20250120000705_orderCountryN.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000705_orderCountryN.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000705_orderCountryN.cs",
               "RelativeToolTip": "Data\\Migrations\\20250120000705_orderCountryN.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -997,11 +1194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 76,
               "Title": "20250120000140_orderCountry.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000140_orderCountry.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000140_orderCountry.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20250120000140_orderCountry.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000140_orderCountry.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Data\\Migrations\\20250120000140_orderCountry.cs",
               "RelativeToolTip": "Data\\Migrations\\20250120000140_orderCountry.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAzwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1009,35 +1206,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 77,
               "Title": "CountryOrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\Naim\\TechStore\\TechStore\\Models\\DTOs\\CountryOrderDTO.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Models\\DTOs\\CountryOrderDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Models\\DTOs\\CountryOrderDTO.cs",
               "ToolTip": "C:\\Users\\Naim\\TechStore\\TechStore\\Models\\DTOs\\CountryOrderDTO.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Models\\DTOs\\CountryOrderDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Models\\DTOs\\CountryOrderDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T23:52:31.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 78,
               "Title": "CountryOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Naim\\TechStore\\TechStore\\Repositories\\CountryOrderRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Repositories\\CountryOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Repositories\\CountryOrderRepository.cs",
               "ToolTip": "C:\\Users\\Naim\\TechStore\\TechStore\\Repositories\\CountryOrderRepository.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Repositories\\CountryOrderRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Naim\\TechStore\\TechStore\\Repositories\\CountryOrderRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T23:45:55.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 68,
               "Title": "IUserOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\IUserOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\IUserOrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserOrderRepository.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Repositories\\IUserOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Repositories\\IUserOrderRepository.cs",
               "RelativeToolTip": "Repositories\\IUserOrderRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1045,35 +1242,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwvyIAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:21:26.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "Models\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T23:21:39.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 73,
               "Title": "UserOrders.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\UserOrder\\UserOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\UserOrder\\UserOrders.cshtml",
               "RelativeDocumentMoniker": "Views\\UserOrder\\UserOrders.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\UserOrder\\UserOrders.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\UserOrder\\UserOrders.cshtml",
               "RelativeToolTip": "Views\\UserOrder\\UserOrders.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1081,11 +1254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 71,
               "Title": "OrderFailure.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\OrderFailure.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\OrderFailure.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\OrderFailure.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\OrderFailure.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\OrderFailure.cshtml",
               "RelativeToolTip": "Views\\Cart\\OrderFailure.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1093,11 +1266,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 69,
               "Title": "PaymentMethods.cs",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Constants\\PaymentMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Constants\\PaymentMethods.cs",
               "RelativeDocumentMoniker": "Constants\\PaymentMethods.cs",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Constants\\PaymentMethods.cs",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Constants\\PaymentMethods.cs",
               "RelativeToolTip": "Constants\\PaymentMethods.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1105,11 +1278,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 70,
               "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\Checkout.cshtml",
               "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1117,11 +1290,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 72,
               "Title": "OrderSuccess.cshtml",
-              "DocumentMoniker": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\OrderSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\OrderSuccess.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\OrderSuccess.cshtml",
-              "ToolTip": "C:\\Users\\altin\\OneDrive\\Desktop\\TechStore\\TechStore\\Views\\Cart\\OrderSuccess.cshtml",
+              "ToolTip": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\Views\\Cart\\OrderSuccess.cshtml",
               "RelativeToolTip": "Views\\Cart\\OrderSuccess.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

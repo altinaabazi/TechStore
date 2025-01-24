@@ -1178,3 +1178,7 @@ C:\Users\Naim\TechStore\TechStore\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\Naim\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Naim\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Naim\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
