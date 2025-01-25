@@ -1,50 +1,83 @@
-﻿﻿
-@model IEnumerable<Product>
-@{
-   // Layout = "_AdminLayout";
-}
+﻿@model TechStore.Models.DTOs.ProductDisplayModel
 
 <h2>Products</h2>
 
 <a asp-action="AddProduct" asp-controller="Product" class="btn btn-primary">Add More</a>
 
-@if(Model?.Count()>0)
+@if (Model?.Products?.Count() > 0)
 {
     <table class="table table-striped my-2">
-        <tr>
-            <th>Image</th>
-            <th>Product</th>
-            <th>Brand</th>
-            <th>Category</th>
-         
-            <th>Price</th>
-            <th>Action</th>
-        </tr>
-
-        @foreach (var Product in Model)
-        {
+        <thead>
             <tr>
-                <td>
-                    @if(string.IsNullOrWhiteSpace(Product.Image))
-                    {
-                        <img src="/Images/NoImage.png" style="width:80px;height:100px" alt="Product image" />
-                    }
-                    else
-                    {
-                        <img src="/images/@Product.Image" style="width:80px;height:100px" alt="Product image" />
-                    }
-                </td>
-                <td>@Product.ProductName</td>
-                <td>@Product.Brand.Name</td>
-                <td>@Product.Category.Name</td> 
-                <td>@Product.Price</td>
-                <td>
-                    <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@Product.Id" class="btn btn-success">Edit</a>
-                    <a asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@Product.Id" class="btn btn-danger" onclick="return window.confirm('Are you sure?')">Delete</a>
-                </td>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Brand</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Action</th>
             </tr>
-        }
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>
+                        @if (string.IsNullOrWhiteSpace(product.Image))
+                        {
+                            <img src="/Images/NoImage.png" style="width:80px;height:100px" alt="Product image" />
+                        }
+                        else
+                        {
+                            <img src="/images/@product.Image" style="width:80px;height:100px" alt="Product image" />
+                        }
+                    </td>
+                    <td>@product.ProductName</td>
+                    <td>@product.Brand.Name</td>
+                    <td>@product.Category.Name</td>
+                    <td>@product.Price</td>
+                    <td>
+                        <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-success btn-sm">Edit</a>
+                        <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-danger btn-sm" onclick="return window.confirm('Are you sure?')">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
     </table>
+
+    <!-- Paginimi -->
+    <div class="pagination d-flex justify-content-end align-items-center mt-3">
+        @if (ViewBag.CurrentPage > 1)
+        {
+            <a asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)" class="btn btn-primary pagination-btn">Previous</a>
+        }
+
+        <span class="pagination-info mx-2">Page @ViewBag.CurrentPage of @ViewBag.TotalPages</span>
+
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+        {
+            <a asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)" class="btn btn-primary pagination-btn">Next</a>
+        }
+    </div>
+
+    <style>
+        .pagination {
+            display: flex;
+            justify-content: flex-end; /* Pozicionon të gjithë përmbajtjen në anën e djathtë */
+            align-items: center; /* Siguron që elementet janë në të njëjtën lartësi */
+            margin-top: 20px; /* Hapësirë sipër div-it të paginimit */
+        }
+
+        .pagination-btn {
+            margin: 0 5px; /* Hapësirë ndërmjet butonave */
+        }
+
+        .pagination-info {
+            font-weight: bold;
+            font-size: 1.1rem; /* Bën tekstin e faqes më të dukshëm */
+        }
+    </style>
+
 }
 else
 {

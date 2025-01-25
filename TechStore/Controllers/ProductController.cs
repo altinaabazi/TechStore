@@ -25,18 +25,51 @@ public class ProductController : Controller
         _fileService = fileService;
     }
 
-    public async Task<IActionResult> Index()
+    //public async Task<IActionResult> Index()
+    //{
+    //    var products = await _productRepo.GetProducts();
+
+    //    // Trajtoni rastin kur Category është null
+    //    foreach (var product in products)
+    //    {
+    //        product.Category ??= new Category { Name = "Uncategorized" };
+    //    }
+
+    //    return View(products);
+    //}
+    public async Task<IActionResult> Index(int page = 1)
     {
+        int pageSize = 5; // Numri i produkteve për faqe
         var products = await _productRepo.GetProducts();
 
-        // Trajtoni rastin kur Category është null
-        foreach (var product in products)
+        // Paginimi
+        var totalProducts = products.Count();
+        var totalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+
+        var productsToShow = products.Skip((page - 1) * pageSize).Take(pageSize);
+
+        // Sigurohu që kategoria të jetë e definuar nëse është null
+        foreach (var product in productsToShow)
         {
             product.Category ??= new Category { Name = "Uncategorized" };
         }
 
-        return View(products);
+        var model = new ProductDisplayModel
+        {
+            Products = productsToShow,
+            Brands = await _brandRepo.GetBrands(),
+            Categories = await _categoryRepo.GetCategories(),
+            STerm = "",  // Përdore për kërkime
+            BrandId = 0  // Mund ta përshtatsh sipas nevojës
+        };
+
+        // Krijo të dhënat për paginim
+        ViewBag.TotalPages = totalPages;
+        ViewBag.CurrentPage = page;
+
+        return View(model);
     }
+
 
     public async Task<IActionResult> AddProduct()
     {
@@ -245,4 +278,16 @@ public class ProductController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+    public async Task<IActionResult> Details(int id)
+    {
+        var product = await _productRepo.GetProductById(id);
+        if (product == null)
+        {
+            TempData["errorMessage"] = $"Product with the id: {id} not found";
+            return RedirectToAction(nameof(Index));
+        }
+
+        return View(product);
+    }
+
 }

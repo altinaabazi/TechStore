@@ -3,40 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using TechStore.Data;
 using TechStore.Models;
+using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
     public class BrandController : Controller
     {
-        private readonly ApplicationDbContext _brandRepo;
+        private readonly IBrandRepository _brandRepo;
 
-        public BrandController(ApplicationDbContext _brandRepo)
+        public BrandController(IBrandRepository brandRepo)
         {
-            _brandRepo = _brandRepo;
+            _brandRepo = brandRepo;
         }
 
         // GET: Brand
         public async Task<IActionResult> Index()
         {
-            return _brandRepo.Brands != null ?
-                        View(await _brandRepo.Brands.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDb_brandRepo.Brands'  is null.");
+            var brands = await _brandRepo.GetBrands();
+            return View(brands);
         }
 
         // GET: Brand/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _brandRepo.Brands == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var brand = await _brandRepo.Brands
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var brand = await _brandRepo.GetBrandById(id.Value);
             if (brand == null)
             {
                 return NotFound();
@@ -52,16 +48,13 @@ namespace TechStore.Controllers
         }
 
         // POST: Brand/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description")] Brand brand)
         {
             if (ModelState.IsValid)
             {
-                _brandRepo.Add(brand);
-                await _brandRepo.SaveChangesAsync();
+                await _brandRepo.AddBrand(brand);
                 return RedirectToAction(nameof(Index));
             }
             return View(brand);
@@ -70,22 +63,21 @@ namespace TechStore.Controllers
         // GET: Brand/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _brandRepo.Brands == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var brand = await _brandRepo.Brands.FindAsync(id);
+            var brand = await _brandRepo.GetBrandById(id.Value);
             if (brand == null)
             {
                 return NotFound();
             }
+
             return View(brand);
         }
 
         // POST: Brand/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] Brand brand)
@@ -99,35 +91,28 @@ namespace TechStore.Controllers
             {
                 try
                 {
-                    _brandRepo.Update(brand);
-                    await _brandRepo.SaveChangesAsync();
+                    await _brandRepo.UpdateBrand(brand);
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!BrandExists(brand.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    ModelState.AddModelError("", "An error occurred while updating the brand.");
+                    return View(brand);
                 }
                 return RedirectToAction(nameof(Index));
             }
+
             return View(brand);
         }
 
         // GET: Brand/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _brandRepo.Brands == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var brand = await _brandRepo.Brands
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var brand = await _brandRepo.GetBrandById(id.Value);
             if (brand == null)
             {
                 return NotFound();
@@ -136,28 +121,20 @@ namespace TechStore.Controllers
             return View(brand);
         }
 
-        // POST: Brand/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_brandRepo.Brands == null)
+            var brand = await _brandRepo.GetBrandById(id);
+            if (brand == null)
             {
-                return Problem("Entity set 'ApplicationDb_brandRepo.Brands'  is null.");
-            }
-            var brand = await _brandRepo.Brands.FindAsync(id);
-            if (brand != null)
-            {
-                _brandRepo.Brands.Remove(brand);
+                return NotFound();
             }
 
-            await _brandRepo.SaveChangesAsync();
+            await _brandRepo.DeleteBrand(brand);
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BrandExists(int id)
-        {
-            return (_brandRepo.Brands?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+
     }
 }

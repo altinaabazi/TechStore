@@ -3,94 +3,86 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using TechStore.Data;
 using TechStore.Models;
+using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ICategoryRepository _catoRepo;
 
-        public CategoryController(ApplicationDbContext context)
+        public CategoryController(ICategoryRepository catoRepo)
         {
-            _context = context;
+            _catoRepo = catoRepo;
         }
 
-        // GET: Category
+        // GET: catogory
         public async Task<IActionResult> Index()
         {
-            return _context.Categories != null ?
-                        View(await _context.Categories.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
+            var catogory = await _catoRepo.GetCategories();
+            return View(catogory);
         }
 
-        // GET: Category/Details/5
+        // GET: catogory/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Categories == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (category == null)
+            var catogory = await _catoRepo.GetCategoryById(id.Value);
+            if (catogory == null)
             {
                 return NotFound();
             }
 
-            return View(category);
+            return View(catogory);
         }
 
-        // GET: Category/Create
+        // GET: Catogory/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Category/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Catogory/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description")] Category category)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description")] Category catogory)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
-                await _context.SaveChangesAsync();
+                await _catoRepo.AddCategory(catogory);
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+            return View(catogory);
         }
 
-        // GET: Category/Edit/5
+        // GET: Catogory/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Categories == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
+            var catogory = await _catoRepo.GetCategoryById(id.Value);
+            if (catogory == null)
             {
                 return NotFound();
             }
-            return View(category);
+
+            return View(catogory);
         }
 
-        // POST: Category/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Catogory/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] Category category)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] Category catogory)
         {
-            if (id != category.Id)
+            if (id != catogory.Id)
             {
                 return NotFound();
             }
@@ -99,65 +91,50 @@ namespace TechStore.Controllers
             {
                 try
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
+                    await _catoRepo.UpdateCategory(catogory);
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!CategoryExists(category.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    ModelState.AddModelError("", "An error occurred while updating the catogory.");
+                    return View(catogory);
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+
+            return View(catogory);
         }
 
         // GET: Category/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Categories == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (category == null)
+            var catogory = await _catoRepo.GetCategoryById(id.Value);
+            if (catogory == null)
             {
                 return NotFound();
             }
 
-            return View(category);
+            return View(catogory);
         }
 
-        // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Categories == null)
+            var catogory = await _catoRepo.GetCategoryById(id);
+            if (catogory == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
-            }
-            var category = await _context.Categories.FindAsync(id);
-            if (category != null)
-            {
-                _context.Categories.Remove(category);
+                return NotFound();
             }
 
-            await _context.SaveChangesAsync();
+            await _catoRepo.DeleteCategory(catogory);
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CategoryExists(int id)
-        {
-            return (_context.Categories?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+
     }
 }
