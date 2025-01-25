@@ -6,49 +6,37 @@ using TechStore.Repositories;
 using TechStore.Models;
 using TechStore.Models.DTOs;
 using TechStore.Services;
+using System;
 
 namespace TechStore.Controllers;
 
-//[Authorize(Roles = nameof(Roles.Admin))]
 public class ProductController : Controller
 {
     private readonly IProductRepository _productRepo;
     private readonly IBrandRepository _brandRepo;
     private readonly ICategoryRepository _categoryRepo;
     private readonly IFileService _fileService;
+    private readonly IAuditLogRepository _auditLogRepo;
 
-    public ProductController(IProductRepository productRepo, IBrandRepository brandRepo, ICategoryRepository categoryRepo, IFileService fileService)
+    public ProductController(IProductRepository productRepo, IBrandRepository brandRepo, ICategoryRepository categoryRepo, IFileService fileService, IAuditLogRepository auditLogRepo)
     {
         _productRepo = productRepo;
         _brandRepo = brandRepo;
         _categoryRepo = categoryRepo;
         _fileService = fileService;
+        _auditLogRepo = auditLogRepo;
     }
 
-    //public async Task<IActionResult> Index()
-    //{
-    //    var products = await _productRepo.GetProducts();
-
-    //    // Trajtoni rastin kur Category është null
-    //    foreach (var product in products)
-    //    {
-    //        product.Category ??= new Category { Name = "Uncategorized" };
-    //    }
-
-    //    return View(products);
-    //}
     public async Task<IActionResult> Index(int page = 1)
     {
-        int pageSize = 5; // Numri i produkteve për faqe
+        int pageSize = 5;
         var products = await _productRepo.GetProducts();
 
-        // Paginimi
         var totalProducts = products.Count();
         var totalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
 
         var productsToShow = products.Skip((page - 1) * pageSize).Take(pageSize);
 
-        // Sigurohu që kategoria të jetë e definuar nëse është null
         foreach (var product in productsToShow)
         {
             product.Category ??= new Category { Name = "Uncategorized" };
@@ -59,17 +47,15 @@ public class ProductController : Controller
             Products = productsToShow,
             Brands = await _brandRepo.GetBrands(),
             Categories = await _categoryRepo.GetCategories(),
-            STerm = "",  // Përdore për kërkime
-            BrandId = 0  // Mund ta përshtatsh sipas nevojës
+            STerm = "",
+            BrandId = 0
         };
 
-        // Krijo të dhënat për paginim
         ViewBag.TotalPages = totalPages;
         ViewBag.CurrentPage = page;
 
         return View(model);
     }
-
 
     public async Task<IActionResult> AddProduct()
     {
@@ -138,6 +124,18 @@ public class ProductController : Controller
             };
 
             await _productRepo.AddProduct(product);
+
+            // Audit Log
+            var auditLog = new AuditLog
+            {
+                Action = "Added",
+                Entity = "Product",
+                EntityId = product.Id,
+                PerformedBy = User.Identity.Name,
+                PerformedAt = DateTime.UtcNow
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);
+
             TempData["successMessage"] = "Product is added successfully";
             return RedirectToAction(nameof(Index));
         }
@@ -236,6 +234,17 @@ public class ProductController : Controller
 
             await _productRepo.UpdateProduct(product);
 
+            // Audit Log
+            var auditLog = new AuditLog
+            {
+                Action = "Updated",
+                Entity = "Product",
+                EntityId = product.Id,
+                PerformedBy = User.Identity.Name,
+                PerformedAt = DateTime.UtcNow
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);
+
             if (!string.IsNullOrWhiteSpace(oldImage) && oldImage != productToUpdate.Image)
             {
                 _fileService.DeleteImage(oldImage);
@@ -264,6 +273,17 @@ public class ProductController : Controller
 
             await _productRepo.DeleteProduct(product);
 
+            // Audit Log
+            var auditLog = new AuditLog
+            {
+                Action = "Deleted",
+                Entity = "Product",
+                EntityId = product.Id,
+                PerformedBy = User.Identity.Name,
+                PerformedAt = DateTime.UtcNow
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);
+
             if (!string.IsNullOrWhiteSpace(product.Image))
             {
                 _fileService.DeleteImage(product.Image);
@@ -278,6 +298,7 @@ public class ProductController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+
     public async Task<IActionResult> Details(int id)
     {
         var product = await _productRepo.GetProductById(id);
@@ -289,5 +310,4 @@ public class ProductController : Controller
 
         return View(product);
     }
-
 }

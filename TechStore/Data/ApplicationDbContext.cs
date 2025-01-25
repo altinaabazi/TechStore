@@ -19,6 +19,7 @@ namespace TechStore.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<CountryOrder> CountryOrders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<AuditLog> AuditLogs { get; set; }
 
         public DbSet<OrderStatus> orderStatuses { get; set; }
         public DbSet<Stock> Stocks { get; set; }
@@ -32,6 +33,8 @@ namespace TechStore.Data
                 .WithOne(p => p.Stock)
                 .HasForeignKey<Stock>(s => s.ProductId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+
 
             // Konfigurime të tjera, nëse është e nevojshme
         }

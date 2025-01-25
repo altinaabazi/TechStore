@@ -1,5 +1,5 @@
-﻿@using TechStore.Models.DTOs﻿
- @model CheckoutModel
+﻿@using TechStore.Models.DTOs
+@model CheckoutModel
 
 @{
     ViewData["Title"] = "Checkout";
@@ -15,16 +15,18 @@
 
     <div class="py-2">
         <label asp-for="Email">Email*</label>
-        <input type="text" class="form-control" asp-for="Email" />
+        <input type="email" class="form-control" asp-for="Email" placeholder="example@gmail.com" />
         <span asp-validation-for="Email" class="text-danger"></span>
-
     </div>
 
     <div class="py-2">
-        <label asp-for="MobileNumber">MobileNumber*</label>
-        <input type="text" class="form-control" asp-for="MobileNumber" />
+        <label asp-for="MobileNumber">Mobile Number*</label>
+        <input type="text" class="form-control" asp-for="MobileNumber"
+               pattern="^\+383[0-9]{8,9}$"
+               title="Please enter a valid mobile number starting with +383 followed by 8 or 9 digits" />
         <span asp-validation-for="MobileNumber" class="text-danger"></span>
     </div>
+
     <div class="py-2">
         <label asp-for="CountryOrderId">Country*</label>
         <select asp-for="CountryOrderId" class="form-control">
@@ -36,7 +38,6 @@
         </select>
         <span asp-validation-for="CountryOrderId" class="text-danger"></span>
     </div>
-
 
     <div class="py-2">
         <label asp-for="Address">Address*</label>
@@ -51,14 +52,12 @@
             @foreach (var method in Enum.GetValues(typeof(TechStore.Constants.PaymentMethods)))
             {
                 <option value="@method.ToString()">@method.ToString()</option>
-
             }
         </select>
         <span asp-validation-for="PaymentMethod" class="text-danger"></span>
     </div>
 
     <div class="py-2">
-        <button type="submit" c class="btn btn-info">Next</button>
-
+        <button type="submit" class="btn btn-info">Next</button>
     </div>
 </form>

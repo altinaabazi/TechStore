@@ -60,6 +60,7 @@ namespace TechStore.Areas.Admin.Controllers
 
         // GET: API - Get all users with roles
         [HttpGet]
+        [Authorize]
         [Route("api/user")]
         public async Task<IActionResult> GetAllUsers()
         {

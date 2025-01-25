@@ -20,33 +20,77 @@ namespace TechStore.Controllers
             _userOrderRepository = userOrderRepository;
             _context = context;
         }
-        public async Task<IActionResult> AllOrders(int? countryOrderId)
+        //public async Task<IActionResult> AllOrders(int? countryOrderId)
+        //{
+        //    // Get list of countries for dropdown
+        //    var countries = await _context.CountryOrders
+        //                                  .Select(c => new { c.Id, c.Name })
+        //                                  .ToListAsync();
+        //    ViewBag.Countries = countries;
+        //    ViewBag.SelectedCountryId = countryOrderId;
+
+        //    // Get orders and filter by CountryOrderId if provided
+        //    var orders = _context.Orders
+        //                          .Include(o => o.OrderDetail)
+        //                                 .ThenInclude(od => od.Product)
+        //                                 .ThenInclude(p => p.Brand)
+        //                                 .Include(o => o.OrderDetail)
+        //                                 .ThenInclude(od => od.Product)
+        //                                 .ThenInclude(p => p.Category)
+        //                                 .Include(o => o.OrderStatus)
+        //                         .AsQueryable();
+
+        //    if (countryOrderId.HasValue)
+        //    {
+        //        orders = orders.Where(o => o.CountryOrderId == countryOrderId.Value);
+        //    }
+
+        //    return View(await orders.ToListAsync());
+        //}
+        public async Task<IActionResult> AllOrders(int? countryOrderId, int page = 1)
         {
+            int pageSize = 5; // Numri i porosive për faqe
+
             // Get list of countries for dropdown
             var countries = await _context.CountryOrders
-                                          .Select(c => new { c.Id, c.Name })
-                                          .ToListAsync();
+                                            .Select(c => new { c.Id, c.Name })
+                                            .ToListAsync();
             ViewBag.Countries = countries;
             ViewBag.SelectedCountryId = countryOrderId;
 
             // Get orders and filter by CountryOrderId if provided
-            var orders = _context.Orders
-                                  .Include(o => o.OrderDetail)
-                                         .ThenInclude(od => od.Product)
-                                         .ThenInclude(p => p.Brand)
-                                         .Include(o => o.OrderDetail)
-                                         .ThenInclude(od => od.Product)
-                                         .ThenInclude(p => p.Category)
-                                         .Include(o => o.OrderStatus)
-                                 .AsQueryable();
+            var ordersQuery = _context.Orders
+                                      .Include(o => o.OrderDetail)
+                                             .ThenInclude(od => od.Product)
+                                             .ThenInclude(p => p.Brand)
+                                      .Include(o => o.OrderDetail)
+                                             .ThenInclude(od => od.Product)
+                                             .ThenInclude(p => p.Category)
+                                      .Include(o => o.OrderStatus)
+                                      .AsQueryable();
 
             if (countryOrderId.HasValue)
             {
-                orders = orders.Where(o => o.CountryOrderId == countryOrderId.Value);
+                ordersQuery = ordersQuery.Where(o => o.CountryOrderId == countryOrderId.Value);
             }
 
-            return View(await orders.ToListAsync());
+            // Paginimi
+            var totalOrders = await ordersQuery.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)totalOrders / pageSize);
+
+            var ordersToShow = await ordersQuery
+                                        .Skip((page - 1) * pageSize)
+                                        .Take(pageSize)
+                                        .ToListAsync();
+
+            // Shto të dhënat e paginimit në ViewBag
+            ViewBag.TotalPages = totalPages;
+            ViewBag.CurrentPage = page;
+
+            // Krijo modelin për View
+            return View(ordersToShow);
         }
+
 
 
 

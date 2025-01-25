@@ -7,24 +7,27 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TechStore.Data;
 using TechStore.Models;
+using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
     public class CountryOrderController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IAuditLogRepository _auditLogRepo;
 
-        public CountryOrderController(ApplicationDbContext context)
+        public CountryOrderController(ApplicationDbContext context, IAuditLogRepository auditLogRepo)
         {
             _context = context;
+            _auditLogRepo = auditLogRepo;
         }
 
         // GET: CountryOrders
         public async Task<IActionResult> Index()
         {
-              return _context.CountryOrders != null ? 
-                          View(await _context.CountryOrders.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.CountryOrders'  is null.");
+            return _context.CountryOrders != null ?
+                      View(await _context.CountryOrders.ToListAsync()) :
+                      Problem("Entity set 'ApplicationDbContext.CountryOrders'  is null.");
         }
 
         // GET: CountryOrders/Details/5
@@ -52,8 +55,6 @@ namespace TechStore.Controllers
         }
 
         // POST: CountryOrders/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] CountryOrder countryOrder)
@@ -62,6 +63,18 @@ namespace TechStore.Controllers
             {
                 _context.Add(countryOrder);
                 await _context.SaveChangesAsync();
+
+                // Audit Log
+                var auditLog = new AuditLog
+                {
+                    Action = "Created",
+                    Entity = "CountryOrder",
+                    EntityId = countryOrder.Id,
+                    PerformedBy = User.Identity.Name,
+                    PerformedAt = DateTime.UtcNow
+                };
+                await _auditLogRepo.AddAuditLog(auditLog);
+
                 return RedirectToAction(nameof(Index));
             }
             return View(countryOrder);
@@ -84,8 +97,6 @@ namespace TechStore.Controllers
         }
 
         // POST: CountryOrders/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] CountryOrder countryOrder)
@@ -101,6 +112,17 @@ namespace TechStore.Controllers
                 {
                     _context.Update(countryOrder);
                     await _context.SaveChangesAsync();
+
+                    // Audit Log
+                    var auditLog = new AuditLog
+                    {
+                        Action = "Updated",
+                        Entity = "CountryOrder",
+                        EntityId = countryOrder.Id,
+                        PerformedBy = User.Identity.Name,
+                        PerformedAt = DateTime.UtcNow
+                    };
+                    await _auditLogRepo.AddAuditLog(auditLog);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -141,23 +163,42 @@ namespace TechStore.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.CountryOrders == null)
+            var countryOrder = await _context.CountryOrders
+                .Include(co => co.Orders) // Include related orders
+                .FirstOrDefaultAsync(co => co.Id == id);
+
+            if (countryOrder == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.CountryOrders'  is null.");
+                return NotFound();
             }
-            var countryOrder = await _context.CountryOrders.FindAsync(id);
-            if (countryOrder != null)
+
+            if (countryOrder.Orders.Any()) // Check if any orders are referencing this CountryOrder
             {
-                _context.CountryOrders.Remove(countryOrder);
+                ModelState.AddModelError("", "Cannot delete this CountryOrder as it is referenced by one or more orders.");
+                return View(countryOrder); // Return to the delete view with error message
             }
-            
+
+            _context.CountryOrders.Remove(countryOrder);
             await _context.SaveChangesAsync();
+
+            // Audit Log
+            var auditLog = new AuditLog
+            {
+                Action = "Deleted",
+                Entity = "CountryOrder",
+                EntityId = countryOrder.Id,
+                PerformedBy = User.Identity.Name,
+                PerformedAt = DateTime.UtcNow
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);
+
             return RedirectToAction(nameof(Index));
         }
 
         private bool CountryOrderExists(int id)
         {
-          return (_context.CountryOrders?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.CountryOrders?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
+
 }

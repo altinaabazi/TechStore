@@ -111,7 +111,12 @@
             <a href="/Admin/Admin/Index" class="navigation-link"><i class="bi bi-person"></i> Users</a>
             <a href="/AdminOperations/AllOrders" class="navigation-link"><i class="bi bi-receipt"></i> Orders</a>
             <a href="/Stock/Index" class="navigation-link"><i class="bi bi-archive"></i> Stock</a>
+            <a href="/OrderStatus/Index" class="navigation-link"><i class="bi bi-archive"></i> OrderStatus</a>
+            <a href="/CountryOrder/Index" class="navigation-link"><i class="bi bi-archive"></i> CountryOrder</a>
+            <a href="/AuditLog/Index" class="navigation-link"><i class="bi bi-archive"></i> AuditLog</a>
             <a href="/Product/Index" class="navigation-link"><i class="bi bi-collection"></i> Product</a>
+            <a class="navigation-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="bi bi-gear"></i> Manage account</a>
+
             
             @* <a href="#" class="navigation-link"><i class="bi bi-bar-chart"></i> Top Salling Items</a> *@
         </div>
@@ -125,12 +130,9 @@
                     }
                 </div>
                 <div class="nav-actions">
-                    <a class="navigation-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="bi bi-gear"></i> Manage account</a>
-                   
-                    <form>
-                        <button type="submit" class="navigation-link">
-                            <i class="bi bi-box-arrow-left"></i> Logout
-                        </button>
+
+                    <form class="navigation-link" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit"> <i class="bi bi-box-arrow-left"></i> Logout</button>
                     </form>
                 </div>
             </nav>

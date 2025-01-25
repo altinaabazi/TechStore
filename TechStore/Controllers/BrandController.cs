@@ -11,11 +11,14 @@ namespace TechStore.Controllers
     public class BrandController : Controller
     {
         private readonly IBrandRepository _brandRepo;
+        private readonly IAuditLogRepository _auditLogRepo;
 
-        public BrandController(IBrandRepository brandRepo)
+        public BrandController(IBrandRepository brandRepo, IAuditLogRepository auditLogRepo)
         {
             _brandRepo = brandRepo;
+            _auditLogRepo = auditLogRepo;
         }
+
 
         // GET: Brand
         public async Task<IActionResult> Index()
@@ -55,10 +58,23 @@ namespace TechStore.Controllers
             if (ModelState.IsValid)
             {
                 await _brandRepo.AddBrand(brand);
+
+                // Audit Log
+                var auditLog = new AuditLog
+                {
+                    Action = "Added",
+                    Entity = "Brand",
+                    EntityId = brand.Id,
+                    PerformedBy = User.Identity.Name,
+                    PerformedAt = DateTime.UtcNow
+                };
+                await _auditLogRepo.AddAuditLog(auditLog);
+
                 return RedirectToAction(nameof(Index));
             }
             return View(brand);
         }
+
 
         // GET: Brand/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -92,17 +108,28 @@ namespace TechStore.Controllers
                 try
                 {
                     await _brandRepo.UpdateBrand(brand);
+
+                    // Audit Log
+                    var auditLog = new AuditLog
+                    {
+                        Action = "Updated",
+                        Entity = "Brand",
+                        EntityId = brand.Id,
+                        PerformedBy = User.Identity.Name,
+                        PerformedAt = DateTime.UtcNow
+                    };
+                    await _auditLogRepo.AddAuditLog(auditLog);
                 }
-                catch (Exception ex)
+                catch
                 {
-                    ModelState.AddModelError("", "An error occurred while updating the brand.");
                     return View(brand);
                 }
+
                 return RedirectToAction(nameof(Index));
             }
-
             return View(brand);
         }
+
 
         // GET: Brand/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -132,8 +159,21 @@ namespace TechStore.Controllers
             }
 
             await _brandRepo.DeleteBrand(brand);
+
+            // Audit Log
+            var auditLog = new AuditLog
+            {
+                Action = "Deleted",
+                Entity = "Brand",
+                EntityId = brand.Id,
+                PerformedBy = User.Identity.Name,
+                PerformedAt = DateTime.UtcNow
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);
+
             return RedirectToAction(nameof(Index));
         }
+
 
 
     }

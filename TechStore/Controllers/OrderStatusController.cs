@@ -56,7 +56,7 @@ namespace TechStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,StatusId,StatusName")] OrderStatus orderStatus)
+        public async Task<IActionResult> Create([Bind("Id,StatusId,StatusName,Description")] OrderStatus orderStatus)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace TechStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,StatusId,StatusName")] OrderStatus orderStatus)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,StatusId,StatusName,Description")] OrderStatus orderStatus)
         {
             if (id != orderStatus.Id)
             {

@@ -87,6 +87,38 @@
 
             
         </table>
+        <div class="pagination">
+            @if (ViewBag.CurrentPage > 1)
+            {
+                <a asp-action="UserOrders" asp-route-page="@(ViewBag.CurrentPage - 1)" class="btn btn-primary pagination-btn">Previous</a>
+            }
+
+            <span>Page @ViewBag.CurrentPage of @ViewBag.TotalPages</span>
+
+            @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+            {
+                <a asp-action="UserOrders" asp-route-page="@(ViewBag.CurrentPage + 1)" class="btn btn-primary pagination-btn">Next</a>
+            }
+        </div>
+
+        <style>
+            .pagination {
+                display: flex;
+                justify-content: flex-end; /* Pozicionon të gjithë përmbajtjen në anën e djathtë */
+                align-items: center; /* Siguron që elementet janë në të njëjtën lartësi */
+                margin-top: 20px; /* Hapësirë sipër div-it të paginimit */
+            }
+
+            .pagination-btn {
+                margin: 0 5px; /* Hapësirë ndërmjet butonave */
+               
+            }
+
+            .pagination-info {
+                font-weight: bold;
+                font-size: 1.1rem; /* Bën tekstin e faqes më të dukshëm */
+            }
+        </style>
     }
     else
     {

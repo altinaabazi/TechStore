@@ -11,20 +11,22 @@ namespace TechStore.Controllers
     public class CategoryController : Controller
     {
         private readonly ICategoryRepository _catoRepo;
+        private readonly IAuditLogRepository _auditLogRepo;
 
-        public CategoryController(ICategoryRepository catoRepo)
+        public CategoryController(ICategoryRepository catoRepo, IAuditLogRepository auditLogRepo)
         {
             _catoRepo = catoRepo;
+            _auditLogRepo = auditLogRepo;
         }
 
-        // GET: catogory
+        // GET: Category
         public async Task<IActionResult> Index()
         {
-            var catogory = await _catoRepo.GetCategories();
-            return View(catogory);
+            var categories = await _catoRepo.GetCategories();
+            return View(categories);
         }
 
-        // GET: catogory/Details/5
+        // GET: Category/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,35 +34,47 @@ namespace TechStore.Controllers
                 return NotFound();
             }
 
-            var catogory = await _catoRepo.GetCategoryById(id.Value);
-            if (catogory == null)
+            var category = await _catoRepo.GetCategoryById(id.Value);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(catogory);
+            return View(category);
         }
 
-        // GET: Catogory/Create
+        // GET: Category/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Catogory/Create
+        // POST: Category/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description")] Category catogory)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description")] Category category)
         {
             if (ModelState.IsValid)
             {
-                await _catoRepo.AddCategory(catogory);
+                await _catoRepo.AddCategory(category);
+
+                // Audit Log
+                var auditLog = new AuditLog
+                {
+                    Action = "Added",
+                    Entity = "Category",
+                    EntityId = category.Id,
+                    PerformedBy = User.Identity.Name,
+                    PerformedAt = DateTime.UtcNow
+                };
+                await _auditLogRepo.AddAuditLog(auditLog);
+
                 return RedirectToAction(nameof(Index));
             }
-            return View(catogory);
+            return View(category);
         }
 
-        // GET: Catogory/Edit/5
+        // GET: Category/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -68,21 +82,21 @@ namespace TechStore.Controllers
                 return NotFound();
             }
 
-            var catogory = await _catoRepo.GetCategoryById(id.Value);
-            if (catogory == null)
+            var category = await _catoRepo.GetCategoryById(id.Value);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(catogory);
+            return View(category);
         }
 
-        // POST: Catogory/Edit/5
+        // POST: Category/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] Category catogory)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] Category category)
         {
-            if (id != catogory.Id)
+            if (id != category.Id)
             {
                 return NotFound();
             }
@@ -91,17 +105,28 @@ namespace TechStore.Controllers
             {
                 try
                 {
-                    await _catoRepo.UpdateCategory(catogory);
+                    await _catoRepo.UpdateCategory(category);
+
+                    // Audit Log
+                    var auditLog = new AuditLog
+                    {
+                        Action = "Updated",
+                        Entity = "Category",
+                        EntityId = category.Id,
+                        PerformedBy = User.Identity.Name,
+                        PerformedAt = DateTime.UtcNow
+                    };
+                    await _auditLogRepo.AddAuditLog(auditLog);
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError("", "An error occurred while updating the catogory.");
-                    return View(catogory);
+                    ModelState.AddModelError("", "An error occurred while updating the category.");
+                    return View(category);
                 }
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(catogory);
+            return View(category);
         }
 
         // GET: Category/Delete/5
@@ -112,29 +137,39 @@ namespace TechStore.Controllers
                 return NotFound();
             }
 
-            var catogory = await _catoRepo.GetCategoryById(id.Value);
-            if (catogory == null)
+            var category = await _catoRepo.GetCategoryById(id.Value);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(catogory);
+            return View(category);
         }
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var catogory = await _catoRepo.GetCategoryById(id);
-            if (catogory == null)
+            var category = await _catoRepo.GetCategoryById(id);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            await _catoRepo.DeleteCategory(catogory);
+            await _catoRepo.DeleteCategory(category);
+
+            // Audit Log
+            var auditLog = new AuditLog
+            {
+                Action = "Deleted",
+                Entity = "Category",
+                EntityId = category.Id,
+                PerformedBy = User.Identity.Name,
+                PerformedAt = DateTime.UtcNow
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);
+
             return RedirectToAction(nameof(Index));
         }
-
-
     }
 }

@@ -1,63 +1,72 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using TechStore.Constants;
+﻿using Microsoft.AspNetCore.Mvc;
+using TechStore.Models;
 using TechStore.Models.DTOs;
 using TechStore.Repositories;
 
-namespace TechStore.Controllers
+public class StockController : Controller
 {
-   // [Authorize(Roles = nameof(Roles.Admin))]
-    public class StockController : Controller
+    private readonly IStockRepository _stockRepo;
+    private readonly IAuditLogRepository _auditLogRepo;
+
+    // Make sure only this constructor exists, and that both repositories are injected
+    public StockController(IStockRepository stockRepo, IAuditLogRepository auditLogRepo)
     {
-        private readonly IStockRepository _stockRepo;
+        _stockRepo = stockRepo;
+        _auditLogRepo = auditLogRepo;
+    }
 
-        public StockController(IStockRepository stockRepo)
-        {
-            _stockRepo = stockRepo;
-        }
+    public async Task<IActionResult> Index(string sTerm = "")
+    {
+        var stocks = await _stockRepo.GetStocks(sTerm);
+        return View(stocks);
+    }
 
-        public async Task<IActionResult> Index(string sTerm = "")
+    public async Task<IActionResult> ManangeStock(int productId)
+    {
+        var existingStock = await _stockRepo.GetStockByProductId(productId);
+        var stock = new StockDTO
         {
-            var stocks = await _stockRepo.GetStocks(sTerm);
-            return View(stocks);
-        }
+            ProductId = productId,
+            Quantity = existingStock != null ? existingStock.Quantity : 0
+        };
+        return View(stock);
+    }
 
-        public async Task<IActionResult> ManangeStock(int productId)
+    [HttpPost]
+    public async Task<IActionResult> ManangeStock(StockDTO stock)
+    {
+        if (!ModelState.IsValid)
+            return View(stock);
+
+        if (stock.Quantity < 0)
         {
-            var existingStock = await _stockRepo.GetStockByProductId(productId);
-            var stock = new StockDTO
-            {
-                ProductId = productId,
-                Quantity = existingStock != null
-            ? existingStock.Quantity : 0
-            };
+            TempData["errorMessage"] = "Quantity cannot be negative.";
             return View(stock);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> ManangeStock(StockDTO stock)
+        try
         {
-            if (!ModelState.IsValid)
-                return View(stock);
+            // Save stock changes
+            await _stockRepo.ManageStock(stock);
 
-            if (stock.Quantity < 0)
+            // Log action in AuditLog
+            var auditLog = new AuditLog
             {
-                TempData["errorMessage"] = "Quantity cannot be negative.";
-                return View(stock);
-            }
+                Action = "Update Stock",  // or any relevant action like "Manage Stock"
+                Entity = "Stock",         // Entity is Stock
+                EntityId = stock.ProductId,  // ID of the product being modified
+                PerformedBy = User.Identity.Name,  // Admin's identity
+                PerformedAt = DateTime.UtcNow   // Timestamp of the action
+            };
+            await _auditLogRepo.AddAuditLog(auditLog);  // Save to the Audit Log
 
-            try
-            {
-                await _stockRepo.ManageStock(stock);
-                TempData["successMessage"] = "Stock is updated successfully.";
-            }
-            catch (Exception ex)
-            {
-                TempData["errorMessage"] = "Something went wrong!!";
-            }
-
-            return RedirectToAction(nameof(Index));
+            TempData["successMessage"] = "Stock is updated successfully.";
+        }
+        catch (Exception)
+        {
+            TempData["errorMessage"] = "Something went wrong!";
         }
 
+        return RedirectToAction(nameof(Index));
     }
 }

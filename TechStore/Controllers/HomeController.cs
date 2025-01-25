@@ -16,20 +16,38 @@ namespace TechStore.Controllers
             _homeRepository = homeRepository;
             _logger = logger;
         }
-        public async Task<IActionResult> Index(string sterm = "", int brandId = 0)
+      
+        public async Task<IActionResult> Index(string sterm = "", int brandId = 0, int page = 1)
         {
+            int pageSize = 10; // Numri i produkteve për faqe
 
+            // Merrni produktet dhe brandet
             IEnumerable<Product> products = await _homeRepository.GetProducts(sterm, brandId);
             IEnumerable<Brand> brands = await _homeRepository.Brands();
+
+            // Paginimi
+            var totalProducts = products.Count();
+            var totalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+
+            // Merrni vetëm produktet për faqe të caktuar
+            var productsToShow = products.Skip((page - 1) * pageSize).Take(pageSize);
+
+            // Modeli për të dërguar në view
             ProductDisplayModel productModel = new ProductDisplayModel
             {
-                Products = products,
+                Products = productsToShow,
                 Brands = brands,
                 STerm = sterm,
                 BrandId = brandId
             };
+
+            // Shto të dhënat për paginim në ViewBag
+            ViewBag.TotalPages = totalPages;
+            ViewBag.CurrentPage = page;
+
             return View(productModel);
         }
+
 
 
         public IActionResult Privacy()
