@@ -1,0 +1,108 @@
+﻿@using TechStore.Models.DTOs;
+@model IEnumerable<Order>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "AllOrders";
+}
+
+<div class="mt-2">
+    <h4>Orders</h4>
+
+    <!-- Filter Form -->
+    <form method="get" asp-action="AllOrders">
+        <label for="countrySelect">Select Country:</label>
+        <select id="countrySelect" name="countryOrderId" class="form-select" onchange="this.form.submit()">
+            <option value="">All Countries</option>
+            @foreach (var country in ViewBag.Countries)
+            {
+                <option value="@country.Id" data-country-id="@country.Id">@country.Name</option>
+            }
+        </select>
+        <button type="submit" class="btn btn-primary">Filter</button>
+    </form>
+
+
+    <hr/>
+
+    <!-- Display Orders -->
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Order Date</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile No</th>
+                    <th>Address</th>
+                    <th>Payment Status</th>
+                    <th>Order Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td>@order.CreateDate.ToString("dd-MM-yyyy")</td>
+                        <td>@order.Name</td>
+                        <td>@order.Email</td>
+                        <td>@order.MobileNumber</td>
+                        <td>@order.Address</td>
+                        <td>@order.PaymentMethod | @(order.IsPaid ? "Paid" : "Not Paid")</td>
+                        <td>@order.OrderStatus.StatusName</td>
+                        <td>
+                            <!-- Order Details Modal Trigger -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-@order.Id">
+                                <i class="bi bi-bag"></i>
+                            </button>
+                            <a asp-action="UpdateOrderStatus" asp-route-orderId="@order.Id" class="btn btn-info"><i class="bi bi-truck"></i></a>
+                            <a asp-action="TogglePaymentStatus" asp-route-orderId="@order.Id" class="btn btn-info"><i class="bi bi-wallet2"></i></a>
+                            <a href="@Url.Action("DeleteOrder", "AdminOperations", new { orderId = order.Id })" 
+                               class="btn btn-danger"
+                               onclick="return confirm('Are you sure you want to delete this order?');">
+                                <i class="bi bi-trash"></i>
+                            </a>
+
+                            <!-- Order Detail Modal -->
+                            @await Html.PartialAsync("_OrderDetailModal", new OrderDetailModalDTO
+                            {
+                                DivId = order.Id.ToString(),
+                                OrderDetail = order.OrderDetail.Select(od => new OrderDetailModal
+                                {
+                                    Id = od.Id,
+                                    OrderId = od.OrderId,
+                                    ProductName = od.Product?.ProductName ?? "N/A",
+                                    BrandName = od.Product?.Brand?.Name ?? "N/A",
+                                    CategoryName = od.Product?.Category?.Name ?? "N/A",
+                                    UnitPrice = od.UnitPrice,
+                                    Quantity = od.Quantity,
+                                    TotalPrice = od.Quantity * od.UnitPrice
+                                }).ToList()
+                            })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h5>No orders found.</h5>
+    }
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var selectedCountryId = "@ViewBag.SelectedCountryId";
+        if (selectedCountryId) {
+            var options = document.querySelectorAll("#countrySelect option");
+            options.forEach(function (option) {
+                if (option.getAttribute("data-country-id") === selectedCountryId) {
+                    option.setAttribute("selected", "selected");
+                }
+            });
+        }
+    });
+</script>
+

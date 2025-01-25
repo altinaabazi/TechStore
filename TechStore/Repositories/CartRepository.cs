@@ -145,21 +145,29 @@ namespace TechStore.Repositories
             using var transaction = _db.Database.BeginTransaction();
             try
             {
-                // logic
-                // move data from cartDetail to order and order detail then we will remove cart detail
                 var userId = GetUserId();
                 if (string.IsNullOrEmpty(userId))
-                    throw new UnauthorizedAccessException("User is not logged-in");
+                    throw new UnauthorizedAccessException("Përdoruesi nuk është i loguar.");
+
                 var cart = await GetCart(userId);
                 if (cart is null)
-                    throw new InvalidOperationException("Invalid cart");
+                    throw new InvalidOperationException("Shporta është e pavlefshme.");
+
                 var cartDetail = _db.CartDetails
                                     .Where(a => a.ShoppingCartId == cart.Id).ToList();
+
                 if (cartDetail.Count == 0)
-                    throw new InvalidOperationException("Cart is empty");
+                    throw new InvalidOperationException("Shporta është bosh.");
+
                 var pendingRecord = _db.orderStatuses.FirstOrDefault(s => s.StatusName == "Pending");
                 if (pendingRecord is null)
-                    throw new InvalidOperationException("Order status does not have Pending status");
+                    throw new InvalidOperationException("Statusi 'Pending' nuk ekziston.");
+
+                // Kontrolloni nëse CountryOrder ekziston
+                var countryOrder = await _db.CountryOrders.FindAsync(model.CountryOrderId);
+                if (countryOrder == null)
+                    throw new InvalidOperationException("Shteti i zgjedhur është i pavlefshëm.");
+
                 var order = new Order
                 {
                     UserId = userId,
@@ -173,7 +181,12 @@ namespace TechStore.Repositories
                     OrderStatusId = pendingRecord.Id
                 };
                 _db.Orders.Add(order);
-                _db.SaveChanges();
+                await _db.SaveChangesAsync();
+
+                // Lidhni porosinë me CountryOrder në nivel aplikimi
+                countryOrder.Orders.Add(order);
+                await _db.SaveChangesAsync();
+
                 foreach (var item in cartDetail)
                 {
                     var orderDetail = new OrderDetail
@@ -185,35 +198,30 @@ namespace TechStore.Repositories
                     };
                     _db.OrderDetails.Add(orderDetail);
 
-                    // update stock here
-
                     var stock = await _db.Stocks.FirstOrDefaultAsync(a => a.ProductId == item.ProductId);
                     if (stock == null)
-                    {
-                        throw new InvalidOperationException("Stock is null");
-                    }
+                        throw new InvalidOperationException("Produkti nuk ekziston në stok.");
 
                     if (item.Quantity > stock.Quantity)
-                    {
-                        throw new InvalidOperationException($"Only {stock.Quantity} items(s) are available in the stock");
-                    }
-                    // decrease the number of quantity from the stock table
+                        throw new InvalidOperationException($"Vetëm {stock.Quantity} artikuj janë të disponueshëm në stok.");
+
                     stock.Quantity -= item.Quantity;
                 }
-                //_db.SaveChanges();
 
-                // removing the cartdetails
                 _db.CartDetails.RemoveRange(cartDetail);
-                _db.SaveChanges();
+                await _db.SaveChangesAsync();
+
                 transaction.Commit();
                 return true;
             }
             catch (Exception ex)
             {
-
-                return false;
+                transaction.Rollback();
+                Console.WriteLine($"Gabim gjatë DoCheckout: {ex.Message}");
+                throw; // Rihedh gabimin për t'u kapur në metodën që thërret
             }
         }
+
 
         private string GetUserId()
         {

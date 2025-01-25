@@ -12,5 +12,6 @@ namespace TechStore.Repositories
         Task<Order?> GetOrderById(int id);
         Task<IEnumerable<OrderStatus>> GetOrderStatuses();
 
+
     }
 }

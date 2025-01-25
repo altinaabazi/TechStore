@@ -36,5 +36,7 @@ namespace TechStore.Models
         public List<OrderDetail> OrderDetail { get; set; }
         public ApplicationUser User { get; set; } // Lidhja me tabelën AspNetUsers
 
+        public int? CountryOrderId { get; set; } // Nullable
+
     }
 }

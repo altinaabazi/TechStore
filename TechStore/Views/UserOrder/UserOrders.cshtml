@@ -1,76 +1,143 @@
-﻿﻿
-@model IEnumerable<Order>
+﻿@model IEnumerable<Order>
 @{
 }
 <div style="width:100%" class="mt-2">
     <a href="/Identity/Account/Manage" class="btn btn-primary my-2">Back</a>
 
     <h4>My Orders</h4>
+ 
+
+
     @if (Model != null && Model.Count() > 0)
     {
         <table class="table table-striped">
-            <tr>
-                <th>OrderDate</th>
-                <th>OrderStatus</th>
-            </tr>
-            @foreach (var order in Model)
-            {
+            <thead>
                 <tr>
-                    <td>@order.CreateDate.ToString("dd-MM-yyyy")</td>
-                    <td>@order.OrderStatus.StatusName</td>
+                    <th>OrderDate</th>
+                    <th>OrderStatus</th>
+                    <th>Actions</th>
                 </tr>
-                @if (order.OrderDetail != null && order.OrderDetail.Count > 0)
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
                 {
                     <tr>
+                        <td>@order.CreateDate.ToString("dd-MM-yyyy")</td>
+                        <td>@order.OrderStatus.StatusName</td>
                         <td>
-                            <table class="table table-striped">
-                                <tr>
-                                    <td>
-                                        Total:
-                                    </td>
-                                    <td>
-                                        @(order.OrderDetail.Select(item => item.Product.Price * item.Quantity).Sum())
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Image</th>
-                                    <th>Brand</th>
-                                    <th>Category</th>
-                                    <th>Unit Price(INR)</th>
-                                    <th>Total Price</th>
-                                </tr>
-                                @foreach (var item in order.OrderDetail)
-                                {
-                                    <tr>
-                                        <td>@item.Product.ProductName</td>
-                                        <td>
-                                            @if (string.IsNullOrEmpty(item.Product.Image))
-                                            {
-                                                <img src="/images/NoImage.png" style="width:80px;height:100px" />
-                                            }
-                                            else
-                                            {
-                                                <img src="/images/@item.Product.Image" style="width:80px;height:100px" />
-                                            }
-                                        </td>
-                                        <td>@item.Product.Brand.Name</td>
-                                        <td>@item.Product.Category.Name</td>
-                                        <td>@item.Product.Price X @item.Quantity</td>
-                                        <td> @(item.Product.Price * item.Quantity) </td>
-                                    </tr>
-                                }
-                            </table>
+                            <button class="btn btn-info btn-view-details" data-bs-toggle="collapse" data-bs-target="#order-details-@order.Id">
+                                View Details
+                            </button>
+                            <a href="javascript:void(0);"
+                               class="btn btn-danger btn-delete"
+                               data-order-id="@order.Id">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                    <tr id="order-details-@order.Id" class="collapse">
+                        <td colspan="3">
+                            @if (order.OrderDetail != null && order.OrderDetail.Count > 0)
+                            {
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Image</th>
+                                            <th>Brand</th>
+                                            <th>Category</th>
+                                            <th>Unit Price (INR)</th>
+                                            <th>Quantity</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in order.OrderDetail)
+                                        {
+                                            <tr>
+                                                <td>@item.Product.ProductName</td>
+                                                <td>
+                                                    @if (string.IsNullOrEmpty(item.Product.Image))
+                                                    {
+                                                        <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="/images/@item.Product.Image" style="width:80px;height:100px" />
+                                                    }
+                                                </td>
+                                                <td>@item.Product.Brand.Name</td>
+                                                <td>@item.Product.Category.Name</td>
+                                                <td>@item.Product.Price</td>
+                                                <td>@item.Quantity</td>
+                                                <td>@(item.Product.Price * item.Quantity)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                                <div class="mt-2">
+                                    <strong>Total Amount:</strong>
+                                    @(order.OrderDetail.Select(item => item.Product.Price * item.Quantity).Sum())
+                                </div>
+                            }
                         </td>
                     </tr>
                 }
-            }
-        </table>
+            </tbody>
 
+            
+        </table>
     }
     else
     {
         <h5>No orders</h5>
     }
 </div>
+
+<script>
+    // Ruaj pozicionin e skrollimit para rifreskimit
+    window.addEventListener('beforeunload', () => {
+        localStorage.setItem('scrollPosition', window.scrollY);
+    });
+
+    // Rikthe pozicionin e skrollimit pas rifreskimit
+    window.addEventListener('load', () => {
+        const scrollPosition = localStorage.getItem('scrollPosition');
+        if (scrollPosition) {
+            window.scrollTo(0, parseInt(scrollPosition));
+            localStorage.removeItem('scrollPosition');
+        }
+    });
+
+    // Event listener për fshirjen e porosive
+    document.addEventListener('DOMContentLoaded', function () {
+        const deleteButtons = document.querySelectorAll('.btn-delete');
+
+        deleteButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const orderId = this.getAttribute('data-order-id');
+
+                if (confirm('Are you sure you want to delete this order?')) {
+                    fetch(`/AdminOperations/DeleteOrder?orderId=${orderId}`, {
+                        method: 'POST',
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest'
+                        }
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                // Refresh faqen pas fshirjes së suksesshme
+                                location.reload();
+                            } else {
+                                alert('Failed to delete the order. Please try again.');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert('An error occurred while deleting the order.');
+                        });
+                }
+            });
+        });
+    });
+</script>

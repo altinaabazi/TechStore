@@ -77,7 +77,7 @@ namespace TechStore.Repositories
 
             return await orders.ToListAsync();
         }
-
+      
         private string GetUserId()
         {
             var principal = _httpContextAccessor.HttpContext.User;

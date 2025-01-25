@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Eb4/zK4XNXcvpLN0LE8IhfFF27rL/X+wKDCku/AmLWE=",
+  "Hash": "cY5GZQvDZZZhKoXyJiOtp58gnjuL76N5UiXhcJmh+v8=",
   "Source": "TechStore",
   "BasePath": "_content/TechStore",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TechStore\\wwwroot",
       "Source": "TechStore",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Naim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.20\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TechStore.styles.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TechStore.styles.css",
       "SourceId": "TechStore",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "TechStore.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TechStore.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TechStore.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TechStore.bundle.scp.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TechStore.bundle.scp.css",
       "SourceId": "TechStore",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "TechStore.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TechStore.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TechStore.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\css\\site.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\favicon.ico",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\0a7267c0-933b-4656-8085-f051b9eeaa50.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\0a7267c0-933b-4656-8085-f051b9eeaa50.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/0a7267c0-933b-4656-8085-f051b9eeaa50.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0a7267c0-933b-4656-8085-f051b9eeaa50.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,29 @@
       "OriginalItemSpec": "wwwroot\\images\\22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\2e0be11e-e6eb-4f8f-b975-c90b6cf13088.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/2e0be11e-e6eb-4f8f-b975-c90b6cf13088.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2e0be11e-e6eb-4f8f-b975-c90b6cf13088.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg",
       "AssetKind": "All",
@@ -1328,10 +1347,29 @@
       "OriginalItemSpec": "wwwroot\\images\\3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\55cb5507-44aa-4faf-a840-5eb406666165.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/55cb5507-44aa-4faf-a840-5eb406666165.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\55cb5507-44aa-4faf-a840-5eb406666165.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg",
       "AssetKind": "All",
@@ -1347,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg",
       "AssetKind": "All",
@@ -1366,10 +1404,29 @@
       "OriginalItemSpec": "wwwroot\\images\\601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\6a19a8c4-5674-474a-9156-4851c56177e1.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/6a19a8c4-5674-474a-9156-4851c56177e1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6a19a8c4-5674-474a-9156-4851c56177e1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg",
       "AssetKind": "All",
@@ -1385,10 +1442,48 @@
       "OriginalItemSpec": "wwwroot\\images\\7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\a9b100da-0626-497a-b2dd-63e7afb11127.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\80000bc3-e3cd-4553-a5de-245b780b8f4e.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/80000bc3-e3cd-4553-a5de-245b780b8f4e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\80000bc3-e3cd-4553-a5de-245b780b8f4e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\9c2329f4-a629-491c-8f3e-c1b7757f5e51.png",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/9c2329f4-a629-491c-8f3e-c1b7757f5e51.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9c2329f4-a629-491c-8f3e-c1b7757f5e51.png"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\a9b100da-0626-497a-b2dd-63e7afb11127.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/a9b100da-0626-497a-b2dd-63e7afb11127.jpg",
       "AssetKind": "All",
@@ -1404,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a9b100da-0626-497a-b2dd-63e7afb11127.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\b2ea0619-c2b3-4771-b508-078963f34ee0.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\b2ea0619-c2b3-4771-b508-078963f34ee0.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/b2ea0619-c2b3-4771-b508-078963f34ee0.jpg",
       "AssetKind": "All",
@@ -1423,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b2ea0619-c2b3-4771-b508-078963f34ee0.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg",
       "AssetKind": "All",
@@ -1442,10 +1537,86 @@
       "OriginalItemSpec": "wwwroot\\images\\b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\b83bf3c9-55c1-4dae-aa2b-664025f2a226.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/b83bf3c9-55c1-4dae-aa2b-664025f2a226.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b83bf3c9-55c1-4dae-aa2b-664025f2a226.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\bff4e7ed-3519-4061-9906-b38f802b6f46.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/bff4e7ed-3519-4061-9906-b38f802b6f46.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bff4e7ed-3519-4061-9906-b38f802b6f46.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\c0b9493d-4ec1-4d89-80d0-69a2f1fc50f4.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/c0b9493d-4ec1-4d89-80d0-69a2f1fc50f4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c0b9493d-4ec1-4d89-80d0-69a2f1fc50f4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\c4f5cf7b-5640-4b0b-bd17-9920bb01699b.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "images/c4f5cf7b-5640-4b0b-bd17-9920bb01699b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c4f5cf7b-5640-4b0b-bd17-9920bb01699b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg",
       "AssetKind": "All",
@@ -1461,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg",
       "AssetKind": "All",
@@ -1480,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg",
       "AssetKind": "All",
@@ -1499,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\laptop.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\laptop.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/laptop.jpg",
       "AssetKind": "All",
@@ -1518,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\laptop.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\noimage.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\noimage.jpg",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/noimage.jpg",
       "AssetKind": "All",
@@ -1537,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\noimage.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\images\\products\\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\products\\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "images/products/b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png",
       "AssetKind": "All",
@@ -1556,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\js\\site.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1575,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1594,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1613,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1632,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1651,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1670,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1689,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1708,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1727,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1746,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1765,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1784,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1803,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1822,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1841,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1860,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1879,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1898,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1917,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1936,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1955,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1974,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1993,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2012,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2031,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2050,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2069,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2088,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2107,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2126,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2145,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2164,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2183,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2202,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2221,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2240,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2259,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2278,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2297,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2316,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2335,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2354,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2373,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2392,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2411,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2430,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2449,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2468,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2487,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2506,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2525,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2544,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2563,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2582,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2601,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2620,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2639,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2658,10 +2829,29 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\5a4164aa-b242-4916-ad67-454a57dad065.jpg",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\0e9ac456-9406-4d91-a0a7-d147a38ad789.png",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
+      "BasePath": "_content/TechStore",
+      "RelativePath": "Uploads/0e9ac456-9406-4d91-a0a7-d147a38ad789.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\0e9ac456-9406-4d91-a0a7-d147a38ad789.png"
+    },
+    {
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\5a4164aa-b242-4916-ad67-454a57dad065.jpg",
+      "SourceId": "TechStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "Uploads/5a4164aa-b242-4916-ad67-454a57dad065.jpg",
       "AssetKind": "All",
@@ -2677,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\5a4164aa-b242-4916-ad67-454a57dad065.jpg"
     },
     {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\e270bae7-a1df-40fc-99c7-a19350899f0e.png",
+      "Identity": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\e270bae7-a1df-40fc-99c7-a19350899f0e.png",
       "SourceId": "TechStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\",
       "BasePath": "_content/TechStore",
       "RelativePath": "Uploads/e270bae7-a1df-40fc-99c7-a19350899f0e.png",
       "AssetKind": "All",
@@ -2694,25 +2884,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\e270bae7-a1df-40fc-99c7-a19350899f0e.png"
-    },
-    {
-      "Identity": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\foto.jpg",
-      "SourceId": "TechStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erjon\\desktop\\TechStore\\TechStore\\wwwroot\\",
-      "BasePath": "_content/TechStore",
-      "RelativePath": "Uploads/foto.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\foto.jpg"
     }
   ]
 }

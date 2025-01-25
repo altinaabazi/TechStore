@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System.ComponentModel.DataAnnotations;
 
 namespace TechStore.Models.DTOs;
 
@@ -20,4 +21,7 @@ public class CheckoutModel
 
     [Required]
     public string? PaymentMethod { get; set; }
+    [Required]
+  
+    public int CountryOrderId { get; set; } // Vendosni shtetin
 }

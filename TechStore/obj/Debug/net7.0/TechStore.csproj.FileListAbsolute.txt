@@ -1182,3 +1182,8 @@ C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Microsoft.OpenApi.dl
 C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Erjon\desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\obj\Debug\net7.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css

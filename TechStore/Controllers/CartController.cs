@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using TechStore.Data;
 using TechStore.Models.DTOs;
 using TechStore.Repositories;
 
@@ -9,10 +10,13 @@ namespace TechStore.Controllers
     public class CartController : Controller
     {
         private readonly ICartRepository _cartRepo;
+        private readonly ApplicationDbContext _db;
 
-        public CartController(ICartRepository cartRepo)
+
+        public CartController(ICartRepository cartRepo, ApplicationDbContext db )
         {
             _cartRepo = cartRepo;
+            _db = db;
         }
         public async Task<IActionResult> AddItem(int productId, int qty = 1, int redirect = 0)
         {
@@ -42,19 +46,40 @@ namespace TechStore.Controllers
 
         public IActionResult Checkout()
         {
+            ViewBag.Countries = _db.CountryOrders.ToList();
             return View();
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Checkout(CheckoutModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
-            bool isCheckedOut = await _cartRepo.DoCheckout(model);
-            if (!isCheckedOut)
-                return RedirectToAction(nameof(OrderFailure));
-            return RedirectToAction(nameof(OrderSuccess));
+
+            try
+            {
+                bool isCheckedOut = await _cartRepo.DoCheckout(model);
+
+                if (!isCheckedOut)
+                {
+                    ViewBag.ErrorMessage = "Procesi i checkout dështoi. Ju lutemi, provoni përsëri.";
+                    return View("OrderFailure", model);
+                }
+
+                return RedirectToAction(nameof(OrderSuccess));
+            }
+            catch (Exception ex)
+            {
+                // Logimi i gabimit për diagnostikim
+                Console.WriteLine($"Gabim gjatë checkout: {ex.Message}");
+
+                // Dërgo gabimin në View
+                ViewBag.ErrorMessage = $"Ka ndodhur një gabim: {ex.Message}";
+                return View("OrderFailure", model);
+            }
         }
+
 
         public IActionResult OrderSuccess()
         {

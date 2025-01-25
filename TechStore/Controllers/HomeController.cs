@@ -1,8 +1,6 @@
-﻿using System.Diagnostics;
-using Humanizer.Localisation;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using TechStore.Models;
-using TechStore.Data;
 using TechStore.Models.DTOs;
 
 namespace TechStore.Controllers
@@ -27,8 +25,8 @@ namespace TechStore.Controllers
             {
                 Products = products,
                 Brands = brands,
-              STerm = sterm,
-              BrandId = brandId
+                STerm = sterm,
+                BrandId = brandId
             };
             return View(productModel);
         }

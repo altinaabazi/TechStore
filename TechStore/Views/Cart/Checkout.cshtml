@@ -25,6 +25,17 @@
         <input type="text" class="form-control" asp-for="MobileNumber" />
         <span asp-validation-for="MobileNumber" class="text-danger"></span>
     </div>
+    <div class="py-2">
+        <label asp-for="CountryOrderId">Country*</label>
+        <select asp-for="CountryOrderId" class="form-control">
+            <option value="">Select Country</option>
+            @foreach (var country in ViewBag.Countries as List<TechStore.Models.CountryOrder>)
+            {
+                <option value="@country.Id">@country.Name</option>
+            }
+        </select>
+        <span asp-validation-for="CountryOrderId" class="text-danger"></span>
+    </div>
 
 
     <div class="py-2">

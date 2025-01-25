@@ -1,7 +1,13 @@
-﻿
-@{
-    ViewData["Title"] = "OrderFailure";
+﻿@{
+    ViewBag.Title = "Dështimi i Porosisë";
 }
 
-<h1>OrderFailure</h1>
+<h2>Dështimi i Porosisë</h2>
 
+@if (ViewBag.ErrorMessage != null)
+{
+    <div style="color: red; font-weight: bold;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+<p>Ju lutemi, provoni përsëri ose kontaktoni mbështetjen teknike.</p>
