@@ -229,7 +229,7 @@ namespace TechStore.Controllers
             return Ok(orderDetailDto);
         }
 
-        
+
 
         // Delete an order
         public async Task<IActionResult> DeleteOrder(int orderId)
@@ -264,9 +264,103 @@ namespace TechStore.Controllers
 
 
         // Dashboard view
-        public IActionResult Dashboard()
+
+        //public async Task<IActionResult> Dashboard()
+        //{
+        //    // Get total products count
+        //    var totalProducts = await _context.Products.CountAsync();
+
+        //    // Get product counts per category
+        //    var categoryCounts = await _context.Products
+        //        .GroupBy(p => p.Category.Name)
+        //        .Select(g => new
+        //        {
+        //            CategoryName = g.Key,
+        //            Count = g.Count()
+        //        })
+        //        .ToListAsync();
+
+        //    // Get top 5 best-selling products
+        //    var topSellingProducts = await _context.OrderDetails
+        //        .GroupBy(od => od.ProductId)
+        //        .Select(g => new
+        //        {
+        //            ProductId = g.Key,
+        //            ProductName = g.FirstOrDefault().Product.ProductName,
+        //            QuantitySold = g.Sum(od => od.Quantity)
+        //        })
+        //        .OrderByDescending(x => x.QuantitySold)
+        //        .Take(5)
+        //        .ToListAsync();
+
+        //    // Prepare data for the dashboard view
+        //    var categories = categoryCounts.Select(c => c.CategoryName).ToList();
+        //    var percentages = categoryCounts.Select(c => (double)c.Count / totalProducts * 100).ToList();
+
+        //    // Send data to the View
+        //    ViewBag.Categories = categories;
+        //    ViewBag.Percentages = percentages;
+        //    ViewBag.TotalProducts = totalProducts;
+        //    ViewBag.TopSellingProducts = topSellingProducts;
+
+        //    return View();
+        //}
+        public async Task<IActionResult> Dashboard()
         {
+            // Get total products count
+            var totalProducts = await _context.Products.CountAsync();
+
+            // Get total orders count
+            var totalOrders = await GetTotalOrdersAsync();
+
+             var totalUsers = await _context.Users.CountAsync(); 
+
+            // Get product counts per category
+            var categoryCounts = await _context.Products
+                .GroupBy(p => p.Category.Name)
+                .Select(g => new
+                {
+                    CategoryName = g.Key,
+                    Count = g.Count()
+                })
+                .ToListAsync();
+
+            // Get top 5 best-selling products
+            var topSellingProducts = await _context.OrderDetails
+                .GroupBy(od => od.ProductId)
+                .Select(g => new
+                {
+                    ProductId = g.Key,
+                    ProductName = g.FirstOrDefault().Product.ProductName,
+                    QuantitySold = g.Sum(od => od.Quantity)
+                })
+                .OrderByDescending(x => x.QuantitySold)
+                .Take(5)
+                .ToListAsync();
+
+            // Prepare data for the dashboard view
+            var categories = categoryCounts.Select(c => c.CategoryName).ToList();
+            var percentages = categoryCounts.Select(c => (double)c.Count / totalProducts * 100).ToList();
+
+            // Send data to the View
+            ViewBag.Categories = categories;
+            ViewBag.Percentages = percentages;
+            ViewBag.TotalProducts = totalProducts;
+            ViewBag.TotalUsers = totalUsers; // Përdoruesit
+            ViewBag.TotalOrders = totalOrders; // Add total orders to ViewBag
+            ViewBag.TopSellingProducts = topSellingProducts;
+
             return View();
         }
+
+        public async Task<int> GetTotalOrdersAsync()
+        {
+            return await _context.Orders.CountAsync();
+        }
+
+
+
+
+
     }
 }

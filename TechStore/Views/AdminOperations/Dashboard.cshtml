@@ -2,4 +2,163 @@
     Layout = "_AdminLayout";
 }
 
-<h2>Welcome</h2>
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h2>Welcome to Your Dashboard</h2>
+        <p class="dashboard-subtitle">Here’s an overview of your data</p>
+    </div>
+
+    <div class="dashboard-cards">
+        <div class="dashboard-card">
+            <div class="card-title">
+                <span>Total Products</span>
+            </div>
+            <div class="card-value" id="totalProducts">@ViewBag.TotalProducts</div>
+           
+                <div class="card-title">
+                    <span>Total Orders</span>
+                </div>
+                <div class="card-value">@ViewBag.TotalOrders</div>
+           
+                <div class="card-title">
+                    <span>Total Users</span>
+                </div>
+                <div class="card-value" id="totalUsers">@ViewBag.TotalUsers</div>
+         
+
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-title">
+                <span>Product Categories Distribution</span>
+            </div>
+            <canvas id="categoryChart"></canvas>
+        </div>
+        <div class="dashboard-card">
+            <div class="card-title">
+                <span>Top 5 Best-Selling Products</span>
+            </div>
+            <div class="card-value">
+                <ul>
+                    @foreach (var product in ViewBag.TopSellingProducts)
+                    {
+                        <li>@product.ProductName - @product.QuantitySold sold</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var ctx = document.getElementById('categoryChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: @Html.Raw(Json.Serialize(ViewBag.Categories)),
+                datasets: [{
+                    label: 'Product Categories',
+                    data: @Html.Raw(Json.Serialize(ViewBag.Percentages)),
+                    backgroundColor: ['#FF5733', '#33FF57', '#3357FF', '#FF33A6', '#FFC300'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'top' },
+                    tooltip: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return tooltipItem.label + ': ' + tooltipItem.raw.toFixed(2) + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+<style>
+    .dashboard-container {
+        font-family: 'Arial', sans-serif;
+        background-color: #f7f7f7;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .dashboard-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+        .dashboard-header h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .dashboard-header .dashboard-subtitle {
+            font-size: 18px;
+            color: #777;
+            font-weight: 400;
+        }
+
+    .dashboard-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .dashboard-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 28%;
+        margin-bottom: 20px;
+        transition: transform 0.3s;
+    }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .card-title {
+        font-size: 20px;
+        color: #4CAF50;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .card-value {
+        font-size: 32px;
+        color: #333;
+        font-weight: 700;
+    }
+
+        .card-value ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .card-value li {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+    #categoryChart {
+        max-width: 100%;
+        height: 250px;
+        margin-top: 20px;
+    }
+</style>
