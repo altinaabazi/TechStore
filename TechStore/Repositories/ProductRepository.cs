@@ -33,13 +33,21 @@ namespace TechStore.Repositories
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
         }
-        public async Task<Product?> GetProductById(int id) => await _context.Products.FindAsync(id);
        
         public async Task<IEnumerable<Product>> GetProducts()
     => await _context.Products
         .Include(a => a.Brand) // Përfshin Brand
         .Include(a => a.Category) // Përfshin Category
         .ToListAsync();
+
+        public async Task<Product> GetProductById(int id)
+        {
+            return await _context.Products
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.Id == id);
+        }
+
 
     }
 }

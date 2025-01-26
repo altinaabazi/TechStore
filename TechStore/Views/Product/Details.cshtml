@@ -2,19 +2,35 @@
 
 <h2>Product Details</h2>
 
-<div>
-    <h4>@Model.ProductName</h4>
-    <p><strong>Brand:</strong> @(!string.IsNullOrWhiteSpace(Model.Brand?.Name) ? Model.Brand.Name : "No Brand")</p>
-    <p><strong>Category:</strong> @(!string.IsNullOrWhiteSpace(Model.Category?.Name) ? Model.Category.Name : "Uncategorized")</p>
-    <p><strong>Price:</strong> $@Model.Price</p>
-    @if (!string.IsNullOrWhiteSpace(Model.Image))
-    {
-        <img src="/images/@Model.Image" alt="@Model.ProductName" style="width:150px;height:200px;" />
-    }
-    else
-    {
-        <p>No image available</p>
-    }
+<div style="display: flex; justify-content: space-around; align-items: center; height: 100vh; padding: 20px; background-color: #f9f9f9; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+    <!-- Përmbajtja Tekstuale -->
+    <div style="flex: 1; padding: 20px; max-width: 600px;">
+        <h2 style="font-size: 2rem; margin-bottom: 20px; color: #333;">@Model.ProductName</h2>
+        <p style="font-size: 1.2rem; color: #555;"><strong>Brand:</strong> @(Model.Brand != null ? Model.Brand.Name : "No Brand")</p>
+        <p style="font-size: 1.2rem; color: #555;"><strong>Category:</strong> @(Model.Category != null ? Model.Category.Name : "Uncategorized")</p>
+        <p style="font-size: 1.2rem; color: #555;"><strong>Price:</strong> $@Model.Price</p>
+        <a asp-action="Index" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007bff; color: #fff; border-radius: 8px; text-decoration: none; font-size: 1rem;">Back to List</a>
+    </div>
+
+    <!-- Imazhi -->
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 20px;">
+        @if (!string.IsNullOrWhiteSpace(Model.Image))
+        {
+            <img src="/images/@Model.Image" alt="@Model.ProductName" style="max-width: 100%; max-height: 90%; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); object-fit: cover;" />
+        }
+        else
+        {
+            <p style="font-size: 1.2rem; color: #888;">No image available</p>
+        }
+    </div>
 </div>
 
-<a asp-action="Index" class="btn btn-secondary">Back to List</a>
+
+<style>
+    .large-image {
+        width: 300px;
+        height: 400px;
+        object-fit: cover; /* Opsionale për të siguruar prerje korrekte */
+    }
+
+</style>

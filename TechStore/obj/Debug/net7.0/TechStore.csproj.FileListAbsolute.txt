@@ -1489,3 +1489,4 @@ C:\Users\altin\OneDrive\Desktop\ProjektiGit\TechStore\TechStore\obj\Debug\net7.0
 C:\Users\altin\OneDrive\Desktop\ProjektiGit\TechStore\TechStore\obj\Debug\net7.0\TechStore.genruntimeconfig.cache
 C:\Users\altin\OneDrive\Desktop\ProjektiGit\TechStore\TechStore\obj\Debug\net7.0\ref\TechStore.dll
 C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\altin\OneDrive\Desktop\ProjektiGit\TechStore\TechStore\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

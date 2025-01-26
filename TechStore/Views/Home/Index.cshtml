@@ -1,6 +1,7 @@
 ﻿@using TechStore.Models.DTOs
 @model ProductDisplayModel
 
+<!-- Forma e filtrimit dhe kërkimit -->
 <div class="my-2">
     <form asp-action="Index" method="get" class="row row-cols-lg-auto g-3 align-items-center">
         <div class="col-12">
@@ -20,48 +21,97 @@
                 <input type="text" class="form-control" value="@Model.STerm" id="sterm" name="sterm" placeholder="Search">
             </div>
         </div>
+        <div class="col-12">
+            <select class="form-select" id="sortOrder" name="sortOrder">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
 
         <div class="col-12">
-            <button type="submit" class="btn btn-primary">Search</button>
-            <a href="/Home/Index" class="btn btn-dark">Reset</a>
+            <button type="submit" class="btn btn-custom">Search</button>
+            <a href="/Home/Index" class="btn btn-custom">Reset</a>
         </div>
+
     </form>
 </div>
+<!-- Slideshow e produkteve -->
+<div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            // Predefined image array
+            var slideshowImages = new[] { "foto1.jpg", "foto2.jpg", "foto3.jpg" };
+        }
 
-<div class="w-100 mt-4 d-flex flex-wrap ">
+        <!-- Displaying the first three images in the slideshow -->
+        @foreach (var image in slideshowImages.Take(3))
+        {
+            <div class="carousel-item @(image == slideshowImages.First() ? "active" : "")">
+                <img src="/images/@image" class="d-block w-100" alt="Product Image">
+            </div>
+        }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+
+
+<div class="product-list">
     @foreach (var product in Model.Products)
     {
-        <div class="card mx-2 mb-4" style="width: 11rem;">
+        <div class="product-card">
             @if (string.IsNullOrEmpty(product.Image))
             {
-                <img style="width:100%;height:180px" src="/images/NoImage.png" class="card-img-top" alt="...">
+                <img src="/images/NoImage.png" alt="@product.ProductName">
             }
             else
             {
-                <img style="width:100%;height:180px" src="/images/@product.Image" class="card-img-top" alt="...">
+                <img src="/images/@product.Image" alt="@product.ProductName">
             }
             <div class="card-body">
-                <h5 class="card-title">@product.ProductName</h5>
-                <p class="card-text">
-                    <b>Category:</b>@product.CategoryName <br />
-                    <b>Price: </b>@product.Price <br />
-                    <b>Brand: </b>@product.BrandName <br />
+                <h5>@product.ProductName</h5>
+                <p>
+                    <b>Category:</b> @product.CategoryName <br />
+                    <b>Price:</b> $@product.Price <br />
+                    <b>Brand:</b> @product.BrandName
                 </p>
                 @if (product.Quantity > 0)
                 {
-                    <button type="button" onclick="add(@product.Id)" class="btn btn-primary">Add to cart</button>
+                    <button type="button" onclick="add(@product.Id)" class="btn btn-primary">Add to Cart</button>
                 }
                 else
                 {
-                    <span style="border: 1px solid;padding: 5px 8px;color: red;border-radius: 5px;">Out of stock</span>
+                    <span class="out-of-stock">Out of Stock</span>
                 }
             </div>
         </div>
     }
 </div>
 
+
 @section Scripts {
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var sortOrder = "@ViewData["SortOrder"]"; // Marrim vlerën e renditjes nga ViewData
+
+            // Vendosim opsionin e zgjedhur në dropdown
+            var sortSelect = document.getElementById("sortOrder");
+            if (sortOrder === "asc") {
+                sortSelect.value = "asc";
+            } else if (sortOrder === "desc") {
+                sortSelect.value = "desc";
+            }
+        });
+
         async function add(productId) {
             var usernameEl = document.getElementById("username");
             if (usernameEl == null) {
@@ -96,3 +146,209 @@
         <a asp-action="Index" asp-route-sterm="@Model.STerm" asp-route-brandId="@Model.BrandId" asp-route-page="@(ViewBag.CurrentPage + 1)" class="btn btn-primary pagination-btn">Next</a>
     }
 </div>
+<style>
+    /* Custom button styling */
+    .btn-custom {
+        background-color: #1d2124; /* Ngjyra blu */
+        border: none;
+        color: white; /* Tekst i bardhë */
+        border-radius: 8px; /* Këndet e rrumbullakosura */
+        padding: 10px 20px; /* Hapësirë brenda butonit */
+        font-size: 16px; /* Madhësia e fontit */
+        font-weight: bold; /* Tekst i trashë */
+        cursor: pointer; /* Kursor pointer */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* Efekte të buta */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hije e lehtë */
+    }
+
+        .btn-custom:hover {
+            background-color: #0056b3; /* Blu më e errët në hover */
+            transform: translateY(-2px); /* Ngrihet paksa kur preket */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Hije më e theksuar në hover */
+        }
+
+    /* Carousel Image Styling */
+    #productCarousel .carousel-item img {
+        object-fit: cover; /* Ensures the image fills its container without distortion */
+        width: 100%; /* Makes sure the image spans the entire width */
+        height: 500px; /* Ensures a uniform height for all images */
+        border-radius: 10px; /* Adds rounded corners */
+    }
+
+    /* Carousel Controls */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background to the controls */
+        border-radius: 50%; /* Makes the controls circular */
+        padding: 10px; /* Adds padding for better clickability */
+    }
+
+    /* Optional: Add shadow around the carousel */
+    #productCarousel {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+        border-radius: 15px; /* Matches the rounded corners of the images */
+        overflow: hidden; /* Ensures the shadow doesn't extend outside the carousel */
+    }
+
+    /* Carousel Indicators */
+    .carousel-indicators [data-bs-target] {
+        width: 12px; /* Makes indicators more visible */
+        height: 12px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    }
+
+    .carousel-indicators .active {
+        background-color: white; /* Highlights the active indicator */
+    }
+</style>
+<style>
+
+
+    /* Container for product cards */
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Spacing between cards */
+        justify-content: center; /* Centers the cards */
+        padding: 20px; /* Adds padding around the container */
+    }
+
+    /* Product card styling */
+    .product-card {
+        width: 250px; /* Fixed width for consistency */
+        background-color: #fff; /* White background for contrast */
+        border: 1px solid #ddd; /* Subtle border */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        overflow: hidden; /* Ensures content stays inside the card */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    }
+
+        .product-card:hover {
+            transform: translateY(-10px); /* Lifts the card on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+        }
+
+        /* Image styling */
+        .product-card img {
+            width: 100%;
+            height: 180px; /* Fixed height for consistency */
+            object-fit: cover; /* Ensures the image fills the area */
+            border-bottom: 1px solid #ddd; /* Separates image from content */
+        }
+
+        /* Product details */
+        .product-card .card-body {
+            padding: 15px;
+            text-align: center; /* Centers text inside the card */
+        }
+
+        .product-card h5 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        /* Add to Cart button */
+        .product-card .btn-primary {
+            background-color: #007bff; /* Brand color */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+            .product-card .btn-primary:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+            }
+
+        /* Out of stock label */
+        .product-card .out-of-stock {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f8d7da; /* Light red background */
+            color: #721c24; /* Dark red text */
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+        }
+
+    <style >
+    /* Button styling */
+    .btn-primary {
+        background-color: #007bff; /* Brand blue */
+        border: none;
+        color: white; /* White text */
+        border-radius: 8px; /* Rounded corners */
+        padding: 10px 20px; /* Spacing inside the button */
+        font-size: 16px; /* Larger font for readability */
+        font-weight: bold; /* Bold text for emphasis */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: translateY(-2px); /* Slight lift on hover */
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    }
+
+    .btn-dark {
+        background-color: #343a40; /* Dark background */
+        border: none;
+        color: white;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .btn-dark:hover {
+            background-color: #1d2124; /* Darker background on hover */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Search and filter form styling */
+    .search-form {
+        display: flex;
+        gap: 15px; /* Spacing between elements */
+        flex-wrap: wrap; /* Adjust layout for smaller screens */
+        align-items: center; /* Align items vertically */
+        margin-bottom: 20px; /* Spacing below the form */
+        padding: 20px; /* Padding around the form */
+        border: 1px solid #ddd; /* Subtle border */
+        border-radius: 10px; /* Rounded corners */
+        background-color: #f9f9f9; /* Light background */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+        .search-form select,
+        .search-form input {
+            width: 200px; /* Consistent width for inputs */
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+            transition: border-color 0.3s ease; /* Smooth focus effect */
+        }
+
+            .search-form select:focus,
+            .search-form input:focus {
+                border-color: #007bff; /* Blue border on focus */
+                outline: none; /* Remove default outline */
+            }
+</style>
+
+</style>

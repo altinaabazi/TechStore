@@ -16,10 +16,10 @@ namespace TechStore.Controllers
             _homeRepository = homeRepository;
             _logger = logger;
         }
-      
-        public async Task<IActionResult> Index(string sterm = "", int brandId = 0, int page = 1)
+
+        public async Task<IActionResult> Index(string sterm = "", int brandId = 0, string sortOrder = "asc", int page = 1)
         {
-            int pageSize = 10; // Numri i produkteve për faqe
+            int pageSize = 5; // Numri i produkteve për faqe
 
             // Merrni produktet dhe brandet
             IEnumerable<Product> products = await _homeRepository.GetProducts(sterm, brandId);
@@ -28,6 +28,16 @@ namespace TechStore.Controllers
             // Paginimi
             var totalProducts = products.Count();
             var totalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+
+            // Filtrimi dhe renditja sipas kërkesës
+            if (sortOrder == "asc")
+            {
+                products = products.OrderBy(p => p.Price); // Çmimi: Nga më i ulëti në më të lartin
+            }
+            else if (sortOrder == "desc")
+            {
+                products = products.OrderByDescending(p => p.Price); // Çmimi: Nga më i larti në më të ulët
+            }
 
             // Merrni vetëm produktet për faqe të caktuar
             var productsToShow = products.Skip((page - 1) * pageSize).Take(pageSize);
@@ -41,9 +51,10 @@ namespace TechStore.Controllers
                 BrandId = brandId
             };
 
-            // Shto të dhënat për paginim në ViewBag
-            ViewBag.TotalPages = totalPages;
-            ViewBag.CurrentPage = page;
+            // Shto të dhënat për paginim dhe renditje në ViewData
+            ViewData["TotalPages"] = totalPages;
+            ViewData["CurrentPage"] = page;
+            ViewData["SortOrder"] = sortOrder; // Ruajmë renditjen e zgjedhur për dropdown
 
             return View(productModel);
         }
