@@ -1,6 +1,10 @@
 ﻿@model TechStore.Models.DTOs.ProductDisplayModel
 
-<h2>Products</h2>
+@{
+ Layout = "_AdminLayout";
+    ViewData["Title"] = "Products";
+}
+
 
 <a asp-action="AddProduct" asp-controller="Product" class="btn btn-primary">Add More</a>
 
@@ -34,7 +38,7 @@
                     <td>@product.ProductName</td>
                     <td>@product.Brand.Name</td>
                     <td>@product.Category.Name</td>
-                    <td>@product.Price</td>
+                    <td> €@product.Price</td>
                     <td>
                         <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-success btn-sm">Edit</a>
                         <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-info btn-sm">Details</a>

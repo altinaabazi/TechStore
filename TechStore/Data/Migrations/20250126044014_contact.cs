@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TechStore.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class auditLog : Migration
+    public partial class contact : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,6 +27,21 @@ namespace TechStore.Data.Migrations
                 {
                     table.PrimaryKey("PK_AuditLogs", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "ContactFormModels",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Message = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ContactFormModels", x => x.Id);
+                });
         }
 
         /// <inheritdoc />
@@ -34,6 +49,9 @@ namespace TechStore.Data.Migrations
         {
             migrationBuilder.DropTable(
                 name: "AuditLogs");
+
+            migrationBuilder.DropTable(
+                name: "ContactFormModels");
         }
     }
 }

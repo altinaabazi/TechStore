@@ -1,4 +1,12 @@
-﻿@model Product
+﻿@using TechStore.Constants
+
+@model Product
+@{
+ Layout = "_Layout";
+
+   
+}
+
 
 <h2>Product Details</h2>
 
@@ -8,9 +16,12 @@
         <h2 style="font-size: 2rem; margin-bottom: 20px; color: #333;">@Model.ProductName</h2>
         <p style="font-size: 1.2rem; color: #555;"><strong>Brand:</strong> @(Model.Brand != null ? Model.Brand.Name : "No Brand")</p>
         <p style="font-size: 1.2rem; color: #555;"><strong>Category:</strong> @(Model.Category != null ? Model.Category.Name : "Uncategorized")</p>
-        <p style="font-size: 1.2rem; color: #555;"><strong>Price:</strong> $@Model.Price</p>
+        <p style="font-size: 1.2rem; color: #555;"><strong>Price:</strong> €@Model.Price</p>
+@if (User.IsInRole(Roles.Admin.ToString()))
+                    {
         <a asp-action="Index" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007bff; color: #fff; border-radius: 8px; text-decoration: none; font-size: 1rem;">Back to List</a>
-    </div>
+}   
+ </div>
 
     <!-- Imazhi -->
     <div style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 20px;">
@@ -33,4 +44,4 @@
         object-fit: cover; /* Opsionale për të siguruar prerje korrekte */
     }
 
-</style>
+</style> 

@@ -10,12 +10,14 @@ namespace TechStore.Controllers
     public class CartController : Controller
     {
         private readonly ICartRepository _cartRepo;
+        private readonly IProductRepository _productService;
         private readonly ApplicationDbContext _db;
 
 
-        public CartController(ICartRepository cartRepo, ApplicationDbContext db )
+        public CartController(ICartRepository cartRepo,IProductRepository productService, ApplicationDbContext db )
         {
             _cartRepo = cartRepo;
+            _productService=productService;
             _db = db;
         }
         public async Task<IActionResult> AddItem(int productId, int qty = 1, int redirect = 0)
@@ -80,6 +82,16 @@ namespace TechStore.Controllers
             }
         }
 
+
+        public IActionResult Details(int id)
+        {
+            var product = _productService.GetProductById(id); // merrni produktin nga shërbimi
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product); // transmetoni produktin në pamje
+        }
 
         public IActionResult OrderSuccess()
         {

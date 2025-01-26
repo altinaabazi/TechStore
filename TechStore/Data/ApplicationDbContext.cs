@@ -18,6 +18,8 @@ namespace TechStore.Data
         public DbSet<CartDetail> CartDetails { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<CountryOrder> CountryOrders { get; set; }
+        public DbSet<ContactFormModel> ContactFormModels { get; set; }
+
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }
 

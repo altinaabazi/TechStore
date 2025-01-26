@@ -1,0 +1,24 @@
+@model TechStore.Models.ContactFormModel
+
+@{
+    ViewData["Title"] = "Fshi Kontakt";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>A jeni të sigurt që dëshironi të fshini këtë kontakt?</p>
+
+<div>
+    <label>Emri:</label> @Model.Name
+</div>
+<div>
+    <label>Email:</label> @Model.Email
+</div>
+<div>
+    <label>Mesazhi:</label> @Model.Message
+</div>
+ <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>

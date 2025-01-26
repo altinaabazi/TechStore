@@ -1,0 +1,29 @@
+@model TechStore.Models.ContactFormModel
+
+@{
+    ViewData["Title"] = "Edito Kontakt";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="Name">Emri</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Message">Mesazhi</label>
+        <textarea class="form-control" id="Message" name="Message" rows="5">@Model.Message</textarea>
+        <span asp-validation-for="Message" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Përditëso</button>
+</form>

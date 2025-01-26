@@ -56,6 +56,17 @@
         </form>
     </div>
 </div>
+<!-- Modal për shfaqjen e detajeve të përdoruesit -->
+<div id="viewUserModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeViewUserModal()">&times;</span>
+        <h3>User Details</h3>
+        <div id="userDetailsContainer">
+            <!-- Detajet e përdoruesit do të shfaqen këtu -->
+        </div>
+    </div>
+</div>
+
 
 <!-- Custom alert box -->
 <div id="custom-alert" class="hidden"></div>
@@ -98,6 +109,8 @@
                                     </select>
                                 </td>
                                 <td>
+    <button class="view-btn" onclick="viewUserDetails('${user.id}')">View Details</button>
+
                                     <button class="edit-btn" onclick="editUser('${user.id}')">Edit</button>
                                     <button class="delete-btn" onclick="deleteUser('${user.id}')">Delete</button>
                                 </td>
@@ -419,6 +432,98 @@
         text-align: center;
         margin: 20px 0;
     }
+/* Modal për shfaqjen e detajeve të përdoruesit */
+#viewUserModal .modal-content {
+    width: 80%;
+    max-width: 600px;
+}
+
+#userDetailsContainer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
 
 
     </style >
+<script> 
+function viewUserDetails(userId) {
+    fetch(`https://localhost:7056/api/v1/user/${userId}`)
+        .then(response => response.json())
+        .then(user => {
+            const detailsContainer = document.getElementById('userDetailsContainer');
+            detailsContainer.innerHTML = `
+                <p><strong>Name:</strong> ${user.name}</p>
+                <p><strong>Email:</strong> ${user.email}</p>
+                <p><strong>Phone Number:</strong> ${user.phoneNumber || 'N/A'}</p>
+                <p><strong>Role:</strong> ${user.role}</p>
+            `;
+            document.getElementById('viewUserModal').style.display = "block"; // Show modal
+        })
+        .catch(err => {
+            console.error('Error fetching user details:', err);
+            showAlert('Error fetching user details', 'error');
+        });
+}
+
+function closeViewUserModal() {
+    document.getElementById('viewUserModal').style.display = "none";
+}
+</script>
+<style> 
+
+/* Stil për butonat e aksioneve (View, Edit, Delete) */
+.user-table td button {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Butoni "View" */
+button.view-btn {
+    background-color: #4DB8FF; /* Kaltrë */
+    border: 2px solid #ffcc80;
+}
+
+button.view-btn:hover {
+    background-color: #42a6e0;
+}
+
+/* Butoni "Edit" */
+button.edit-btn {
+    background-color: #ffcc80; /* Portokalli */
+    border: 2px solid #ff9800;
+}
+
+button.edit-btn:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Butoni "Delete" */
+button.delete-btn {
+    background-color: #f44336; /* E kuqe */
+    border: 2px solid #e57373;
+}
+
+button.delete-btn:hover {
+    background-color: #d32f2f;
+    color: white;
+}
+  /* Butoni "Edit" */
+button.edit-btn {
+    background-color: #4CAF50; /* Gjelbër */
+    border: 2px solid #388E3C; /* Gjelbër më i errët */
+}
+
+button.edit-btn:hover {
+    background-color: #388E3C; /* Gjelbër më i errët kur kalon mbi të */
+    color: white;
+}
+
+
+</style>

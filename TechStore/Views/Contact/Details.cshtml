@@ -1,0 +1,19 @@
+@model TechStore.Models.ContactFormModel
+
+@{
+    ViewData["Title"] = "Detajet e Kontaktit";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <label>Emri:</label> @Model.Name
+</div>
+<div>
+    <label>Email:</label> @Model.Email
+</div>
+<div>
+    <label>Mesazhi:</label> @Model.Message
+</div>
+
+<a href="@Url.Action("Index", "Contact")" class="btn btn-secondary">Kthehu në listë</a>
