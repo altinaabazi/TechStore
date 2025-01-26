@@ -3,14 +3,26 @@ using TechStore.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.SwaggerGen;
-
 using static System.Formats.Asn1.AsnWriter;
 using TechStore.Repositories;
 using TechStore;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Configuration;
+using System.Text;
+using StackExchange.Redis;
 var builder = WebApplication.CreateBuilder(args);
-// Add services to the container.
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+var redisConfig = builder.Configuration.GetConnectionString("RedisConnection")
+                  ?? throw new InvalidOperationException("Connection string 'RedisConnection' not found.");
+var redis = ConnectionMultiplexer.Connect(redisConfig);
+builder.Services.AddSingleton<IConnectionMultiplexer>(redis);
+builder.Services.AddSingleton<RedisCacheService>();
+
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 //builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
@@ -34,8 +46,25 @@ builder.Services.AddTransient<IAuditLogRepository, AuditLogRepository>();
 
 
 builder.Services.AddSwaggerGen();
-builder.Services.AddSwaggerGen();
-// Aktivizo Swagger
+
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+  .AddJwtBearer(options =>
+  {
+      options.TokenValidationParameters = new TokenValidationParameters
+      {
+          ValidateIssuer = true,
+          ValidateAudience = true,
+          ValidateLifetime = true,
+          ValidateIssuerSigningKey = true,
+          ValidIssuer = builder.Configuration["Jwt:Issuer"],
+          ValidAudience = builder.Configuration["Jwt:Audience"],
+          IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+      };
+  });
+
+
 
 
 var app = builder.Build();
@@ -53,6 +82,7 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSwagger();

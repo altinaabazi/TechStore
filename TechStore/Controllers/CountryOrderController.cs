@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
+    [Authorize]
     public class CountryOrderController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -23,6 +25,7 @@ namespace TechStore.Controllers
         }
 
         // GET: CountryOrders
+        [Authorize(Roles = "Manager,Admin")]
         public async Task<IActionResult> Index()
         {
             return _context.CountryOrders != null ?
@@ -31,6 +34,7 @@ namespace TechStore.Controllers
         }
 
         // GET: CountryOrders/Details/5
+        [Authorize(Roles = "Manager,Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.CountryOrders == null)
@@ -49,6 +53,8 @@ namespace TechStore.Controllers
         }
 
         // GET: CountryOrders/Create
+        [Authorize(Roles = "Admin")]
+
         public IActionResult Create()
         {
             return View();
@@ -57,6 +63,8 @@ namespace TechStore.Controllers
         // POST: CountryOrders/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Create([Bind("Id,Name")] CountryOrder countryOrder)
         {
             if (ModelState.IsValid)
@@ -81,6 +89,8 @@ namespace TechStore.Controllers
         }
 
         // GET: CountryOrders/Edit/5
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.CountryOrders == null)
@@ -99,6 +109,8 @@ namespace TechStore.Controllers
         // POST: CountryOrders/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] CountryOrder countryOrder)
         {
             if (id != countryOrder.Id)
@@ -141,6 +153,8 @@ namespace TechStore.Controllers
         }
 
         // GET: CountryOrders/Delete/5
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.CountryOrders == null)
@@ -161,6 +175,8 @@ namespace TechStore.Controllers
         // POST: CountryOrders/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var countryOrder = await _context.CountryOrders

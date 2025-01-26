@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using TechStore.Constants;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -108,15 +109,21 @@
     <div class="main-contaier">
         <div class="sidenav">
             <a class="navigation-link" href="/Home/Index"><i class="bi bi-house-door"></i> Home</a>
+            <a href="/AdminOperations/Dashboard" class="navigation-link"><i class="bi bi-speedometer2"></i> Dashboard</a>
+
             <a href="/Admin/Admin/Index" class="navigation-link"><i class="bi bi-person"></i> Users</a>
+            <a href="/Product/Index" class="navigation-link"><i class="bi bi-bag"></i> Product</a>
             <a href="/AdminOperations/AllOrders" class="navigation-link"><i class="bi bi-receipt"></i> Orders</a>
+           
             <a href="/Stock/Index" class="navigation-link"><i class="bi bi-archive"></i> Stock</a>
-            <a href="/OrderStatus/Index" class="navigation-link"><i class="bi bi-archive"></i> OrderStatus</a>
-            <a href="/CountryOrder/Index" class="navigation-link"><i class="bi bi-archive"></i> CountryOrder</a>
-            <a href="/AuditLog/Index" class="navigation-link"><i class="bi bi-archive"></i> AuditLog</a>
-            <a href="/Product/Index" class="navigation-link"><i class="bi bi-collection"></i> Product</a>
-            <a href="/Brand/Index" class="navigation-link"><i class="bi bi-collection"></i> Brand</a>
-            <a href="/Category/Index" class="navigation-link"><i class="bi bi-collection"></i> Category</a>
+               @if (User.IsInRole("Admin"))
+                    {
+                <a href="/AuditLog/Index" class="navigation-link"><i class="bi bi-arrow-repeat"></i>AuditLog</a>
+                    }
+            <a href="/OrderStatus/Index" class="navigation-link"><i class="bi bi-truck"></i> OrderStatus</a>
+            <a href="/CountryOrder/Index" class="navigation-link"><i class="bi bi-geo-alt"></i>CountryOrder</a>
+            <a href="/Brand/Index" class="navigation-link"><i class="bi bi-tag-fill"></i> Brand</a>
+            <a href="/Category/Index" class="navigation-link"><i class="bi bi-tag-fill"></i> Category</a>
             <a class="navigation-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="bi bi-gear"></i> Manage account</a>
 
             

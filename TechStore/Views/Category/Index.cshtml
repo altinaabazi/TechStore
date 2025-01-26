@@ -1,4 +1,5 @@
-﻿@model IEnumerable<TechStore.Models.Category>
+﻿@using TechStore.Constants;
+@model IEnumerable<TechStore.Models.Category>
 
 @{
  Layout = "_AdminLayout";
@@ -27,8 +28,11 @@
                     <td>@Category.Description</td>
                     <td>
                         <a asp-action="Details" asp-route-id="@Category.Id" class="btn btn-info btn-sm">Details</a>
-                        <a asp-action="Edit" asp-route-id="@Category.Id" class="btn btn-success btn-sm">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@Category.Id" class="btn btn-danger btn-sm" onclick="return window.confirm('Are you sure?')">Delete</a>
+                        @if (User.IsInRole(Roles.Admin.ToString()))
+                        {
+                            <a asp-action="Edit" asp-route-id="@Category.Id" class="btn btn-success btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@Category.Id" class="btn btn-danger btn-sm" onclick="return window.confirm('Are you sure?')">Delete</a>
+                        }
                     </td>
                 </tr>
             }

@@ -9,7 +9,10 @@ using TechStore.Data;
 
 namespace TechStore.Controllers
 {
-    [Authorize(Roles = nameof(Roles.Admin))]
+    //[Authorize(Roles = nameof(Roles.Admin))]
+
+
+
     public class AdminOperationsController : Controller
     {
         private readonly IUserOrderRepository _userOrderRepository;
@@ -20,33 +23,11 @@ namespace TechStore.Controllers
             _userOrderRepository = userOrderRepository;
             _context = context;
         }
-        //public async Task<IActionResult> AllOrders(int? countryOrderId)
-        //{
-        //    // Get list of countries for dropdown
-        //    var countries = await _context.CountryOrders
-        //                                  .Select(c => new { c.Id, c.Name })
-        //                                  .ToListAsync();
-        //    ViewBag.Countries = countries;
-        //    ViewBag.SelectedCountryId = countryOrderId;
 
-        //    // Get orders and filter by CountryOrderId if provided
-        //    var orders = _context.Orders
-        //                          .Include(o => o.OrderDetail)
-        //                                 .ThenInclude(od => od.Product)
-        //                                 .ThenInclude(p => p.Brand)
-        //                                 .Include(o => o.OrderDetail)
-        //                                 .ThenInclude(od => od.Product)
-        //                                 .ThenInclude(p => p.Category)
-        //                                 .Include(o => o.OrderStatus)
-        //                         .AsQueryable();
 
-        //    if (countryOrderId.HasValue)
-        //    {
-        //        orders = orders.Where(o => o.CountryOrderId == countryOrderId.Value);
-        //    }
 
-        //    return View(await orders.ToListAsync());
-        //}
+        [Authorize(Roles = "Manager,Admin")]
+
         public async Task<IActionResult> AllOrders(int? countryOrderId, int page = 1)
         {
             int pageSize = 5; // Numri i porosive për faqe
@@ -95,6 +76,8 @@ namespace TechStore.Controllers
 
 
         // Toggle the payment status of an order
+    [Authorize(Roles = "Manager,Admin")]
+
         public async Task<IActionResult> TogglePaymentStatus(int orderId)
         {
             try
@@ -109,6 +92,9 @@ namespace TechStore.Controllers
         }
 
         // Show the update order status page
+
+        [Authorize(Roles = "Manager,Admin")]
+
         public async Task<IActionResult> UpdateOrderStatus(int orderId)
         {
             var order = await _userOrderRepository.GetOrderById(orderId);
@@ -134,6 +120,8 @@ namespace TechStore.Controllers
 
         // Handle the update order status POST request
         [HttpPost]
+    [Authorize(Roles = "Manager,Admin")]
+
         public async Task<IActionResult> UpdateOrderStatus(UpdateOrderStatusModel data)
         {
             try
@@ -194,6 +182,8 @@ namespace TechStore.Controllers
 
         //    return Ok(orderDetailDto); // Ensure that the data is returned using Ok()
         //}
+        [Authorize]
+     
         [HttpGet]
         [Route("api/order")]
         public IActionResult GetOrderDetails(int orderId)
@@ -231,7 +221,8 @@ namespace TechStore.Controllers
 
 
 
-        // Delete an order
+
+        [Authorize]
         public async Task<IActionResult> DeleteOrder(int orderId)
         {
             try
@@ -305,6 +296,8 @@ namespace TechStore.Controllers
 
         //    return View();
         //}
+        [Authorize(Roles = "Manager,Admin")]
+
         public async Task<IActionResult> Dashboard()
         {
             // Get total products count

@@ -1,500 +1,376 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TechStore.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TechStore.m0obhhd0nm.bundle.scp.css"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TechStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TechStore.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\Uploads\\0e9ac456-9406-4d91-a0a7-d147a38ad789.png",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\0e9ac456-9406-4d91-a0a7-d147a38ad789.png",
       "PackagePath": "staticwebassets\\Uploads\\0e9ac456-9406-4d91-a0a7-d147a38ad789.png"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\Uploads\\5a4164aa-b242-4916-ad67-454a57dad065.jpg",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\5a4164aa-b242-4916-ad67-454a57dad065.jpg",
       "PackagePath": "staticwebassets\\Uploads\\5a4164aa-b242-4916-ad67-454a57dad065.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\Uploads\\e270bae7-a1df-40fc-99c7-a19350899f0e.png",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\Uploads\\e270bae7-a1df-40fc-99c7-a19350899f0e.png",
       "PackagePath": "staticwebassets\\Uploads\\e270bae7-a1df-40fc-99c7-a19350899f0e.png"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg",
-      "PackagePath": "staticwebassets\\images\\0a4d192d-df33-44d9-a8a4-a3c90092f973.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\0a7267c0-933b-4656-8085-f051b9eeaa50.jpg",
-      "PackagePath": "staticwebassets\\images\\0a7267c0-933b-4656-8085-f051b9eeaa50.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\160cff12-8323-45ff-a21e-4cc2d83fac1a.jpg",
+      "PackagePath": "staticwebassets\\images\\160cff12-8323-45ff-a21e-4cc2d83fac1a.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\0e4afe8d-9de4-41ba-932c-4fce9fb4f098.jpg",
-      "PackagePath": "staticwebassets\\images\\0e4afe8d-9de4-41ba-932c-4fce9fb4f098.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\304122fb-b1f5-4da9-9b8b-5fb9fc75e7fd.jpg",
+      "PackagePath": "staticwebassets\\images\\304122fb-b1f5-4da9-9b8b-5fb9fc75e7fd.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\104ed0c4-6a08-479f-afd4-77f1cb2ce4b3.jpg",
-      "PackagePath": "staticwebassets\\images\\104ed0c4-6a08-479f-afd4-77f1cb2ce4b3.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\51Ka2b7TsfL.jpg",
+      "PackagePath": "staticwebassets\\images\\51Ka2b7TsfL.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\1c8305f1-44b8-4eef-8f2b-9a5864d67d17.jpg",
-      "PackagePath": "staticwebassets\\images\\1c8305f1-44b8-4eef-8f2b-9a5864d67d17.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\627f80f9-a5ac-4a47-afd7-8e788e292865.jpg",
+      "PackagePath": "staticwebassets\\images\\627f80f9-a5ac-4a47-afd7-8e788e292865.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg",
-      "PackagePath": "staticwebassets\\images\\22f4c81c-4179-4bb8-ba36-cc361bd7e804.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\69f92bbf-5f3b-47ac-a549-bf08a0a19400.png",
+      "PackagePath": "staticwebassets\\images\\69f92bbf-5f3b-47ac-a549-bf08a0a19400.png"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\298746ff-750d-469c-82f3-edbacc48bf73.jpg",
-      "PackagePath": "staticwebassets\\images\\298746ff-750d-469c-82f3-edbacc48bf73.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\74e107a9-a323-4e80-a68f-d751cf1e3d55.jpg",
+      "PackagePath": "staticwebassets\\images\\74e107a9-a323-4e80-a68f-d751cf1e3d55.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\2e0be11e-e6eb-4f8f-b975-c90b6cf13088.jpg",
-      "PackagePath": "staticwebassets\\images\\2e0be11e-e6eb-4f8f-b975-c90b6cf13088.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\9b3f3514-a236-4a02-99ec-18b81d0c075d.jpg",
+      "PackagePath": "staticwebassets\\images\\9b3f3514-a236-4a02-99ec-18b81d0c075d.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\3163a084-8b18-4f6d-aa4a-c6c3fa901a8b.jpg",
-      "PackagePath": "staticwebassets\\images\\3163a084-8b18-4f6d-aa4a-c6c3fa901a8b.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\9j0c3ea.jpg",
+      "PackagePath": "staticwebassets\\images\\9j0c3ea.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\32f12618-6997-42a9-960a-37059ee12126.jpg",
-      "PackagePath": "staticwebassets\\images\\32f12618-6997-42a9-960a-37059ee12126.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\airpods.jpg",
+      "PackagePath": "staticwebassets\\images\\airpods.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\3502f3f2-5c9f-4b75-b098-06c9e92a090b.jpg",
-      "PackagePath": "staticwebassets\\images\\3502f3f2-5c9f-4b75-b098-06c9e92a090b.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\c6ec662d-7100-4cc5-9cf4-0ec122035689.jpg",
+      "PackagePath": "staticwebassets\\images\\c6ec662d-7100-4cc5-9cf4-0ec122035689.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\3a988e4c-eb59-407e-8ba2-d9840958c3a6.jpg",
-      "PackagePath": "staticwebassets\\images\\3a988e4c-eb59-407e-8ba2-d9840958c3a6.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\cd8db06b-543d-417e-8d90-86c0c320f7ba.jpg",
+      "PackagePath": "staticwebassets\\images\\cd8db06b-543d-417e-8d90-86c0c320f7ba.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg",
-      "PackagePath": "staticwebassets\\images\\3dedbc96-9c92-4cd7-9671-b4d5812273e3.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\d18ab344-54e0-429e-9dcb-d3b9dcfeec11.jpg",
+      "PackagePath": "staticwebassets\\images\\d18ab344-54e0-429e-9dcb-d3b9dcfeec11.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\46aec286-e7b6-4015-a513-a68b2db904d4.jpg",
-      "PackagePath": "staticwebassets\\images\\46aec286-e7b6-4015-a513-a68b2db904d4.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\default.jpg",
+      "PackagePath": "staticwebassets\\images\\default.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\4ae1d78d-7d87-4dc8-8d88-57fee1bfd593.jpg",
-      "PackagePath": "staticwebassets\\images\\4ae1d78d-7d87-4dc8-8d88-57fee1bfd593.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\e5d9d5b0-1b75-4134-ac6e-b876d0af4c99.jpg",
+      "PackagePath": "staticwebassets\\images\\e5d9d5b0-1b75-4134-ac6e-b876d0af4c99.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\55cb5507-44aa-4faf-a840-5eb406666165.jpg",
-      "PackagePath": "staticwebassets\\images\\55cb5507-44aa-4faf-a840-5eb406666165.jpg"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\f11eff5e-1529-4862-9b46-86c794f3df11.jpg",
+      "PackagePath": "staticwebassets\\images\\f11eff5e-1529-4862-9b46-86c794f3df11.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\5b4bd610-847f-43d4-9e2a-c73f3ffff502.jpg",
-      "PackagePath": "staticwebassets\\images\\5b4bd610-847f-43d4-9e2a-c73f3ffff502.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg",
-      "PackagePath": "staticwebassets\\images\\60020b4c-8715-4bc7-843c-2e9bb2332b96.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg",
-      "PackagePath": "staticwebassets\\images\\601cc6d7-2d89-4df3-8cca-b177c3cf5141.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\66525a83-c09e-44d2-bf83-a5d197e89abf.jpg",
-      "PackagePath": "staticwebassets\\images\\66525a83-c09e-44d2-bf83-a5d197e89abf.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\6934c74e-cb8c-4b49-81e2-31ea223d424b.jpg",
-      "PackagePath": "staticwebassets\\images\\6934c74e-cb8c-4b49-81e2-31ea223d424b.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\6a19a8c4-5674-474a-9156-4851c56177e1.jpg",
-      "PackagePath": "staticwebassets\\images\\6a19a8c4-5674-474a-9156-4851c56177e1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\76b8c3e2-1b6c-493f-ba20-7b17668ee2b8.png",
-      "PackagePath": "staticwebassets\\images\\76b8c3e2-1b6c-493f-ba20-7b17668ee2b8.png"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg",
-      "PackagePath": "staticwebassets\\images\\7d5e30d4-ad10-4e0e-934f-2c717db47423.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\80000bc3-e3cd-4553-a5de-245b780b8f4e.jpg",
-      "PackagePath": "staticwebassets\\images\\80000bc3-e3cd-4553-a5de-245b780b8f4e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\83683c61-6502-4f21-b796-80bfe0faa65e.jpg",
-      "PackagePath": "staticwebassets\\images\\83683c61-6502-4f21-b796-80bfe0faa65e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\9531e38a-8848-4b9f-85c9-0d944e35258e.jpg",
-      "PackagePath": "staticwebassets\\images\\9531e38a-8848-4b9f-85c9-0d944e35258e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\99021667-8460-4891-b078-0b437ec6bdf9.jpg",
-      "PackagePath": "staticwebassets\\images\\99021667-8460-4891-b078-0b437ec6bdf9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\9c2329f4-a629-491c-8f3e-c1b7757f5e51.png",
-      "PackagePath": "staticwebassets\\images\\9c2329f4-a629-491c-8f3e-c1b7757f5e51.png"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\9d6fd479-026b-484f-ac70-2e074d03f04e.jpg",
-      "PackagePath": "staticwebassets\\images\\9d6fd479-026b-484f-ac70-2e074d03f04e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\9f42e4b4-f38f-4e3f-8f4e-c88dedb68d01.jpg",
-      "PackagePath": "staticwebassets\\images\\9f42e4b4-f38f-4e3f-8f4e-c88dedb68d01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\a9b100da-0626-497a-b2dd-63e7afb11127.jpg",
-      "PackagePath": "staticwebassets\\images\\a9b100da-0626-497a-b2dd-63e7afb11127.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\b2ea0619-c2b3-4771-b508-078963f34ee0.jpg",
-      "PackagePath": "staticwebassets\\images\\b2ea0619-c2b3-4771-b508-078963f34ee0.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg",
-      "PackagePath": "staticwebassets\\images\\b53e11ba-e5dd-464e-86ca-e9fa74797df7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\b83bf3c9-55c1-4dae-aa2b-664025f2a226.jpg",
-      "PackagePath": "staticwebassets\\images\\b83bf3c9-55c1-4dae-aa2b-664025f2a226.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\b85d5f1e-9676-497f-9fe8-b4d3cbc1f138.jpg",
-      "PackagePath": "staticwebassets\\images\\b85d5f1e-9676-497f-9fe8-b4d3cbc1f138.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\bff4e7ed-3519-4061-9906-b38f802b6f46.jpg",
-      "PackagePath": "staticwebassets\\images\\bff4e7ed-3519-4061-9906-b38f802b6f46.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\c0b9493d-4ec1-4d89-80d0-69a2f1fc50f4.jpg",
-      "PackagePath": "staticwebassets\\images\\c0b9493d-4ec1-4d89-80d0-69a2f1fc50f4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\c294dd16-f03d-4bd6-8805-1463a1608bdc.jpg",
-      "PackagePath": "staticwebassets\\images\\c294dd16-f03d-4bd6-8805-1463a1608bdc.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\c4f5cf7b-5640-4b0b-bd17-9920bb01699b.jpg",
-      "PackagePath": "staticwebassets\\images\\c4f5cf7b-5640-4b0b-bd17-9920bb01699b.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\c66db51a-969b-45ed-873e-c437f77b4c47.jpg",
-      "PackagePath": "staticwebassets\\images\\c66db51a-969b-45ed-873e-c437f77b4c47.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\c68e6962-a355-4ed1-a688-5ffad9084e93.jpg",
-      "PackagePath": "staticwebassets\\images\\c68e6962-a355-4ed1-a688-5ffad9084e93.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\c8eb7427-f2be-4c0e-8650-75949e55cf84.jpg",
-      "PackagePath": "staticwebassets\\images\\c8eb7427-f2be-4c0e-8650-75949e55cf84.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\d5118268-c122-4aeb-ae92-214164f6e178.jpg",
-      "PackagePath": "staticwebassets\\images\\d5118268-c122-4aeb-ae92-214164f6e178.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\da010f8f-9d72-46d5-9ae3-81a53316d24b.png",
-      "PackagePath": "staticwebassets\\images\\da010f8f-9d72-46d5-9ae3-81a53316d24b.png"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\e03949c7-605f-4a6d-ac7e-2d52fccc37e6.jpg",
-      "PackagePath": "staticwebassets\\images\\e03949c7-605f-4a6d-ac7e-2d52fccc37e6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\e2e1e0d7-b0a8-4f41-958b-75728f7cac82.jpg",
-      "PackagePath": "staticwebassets\\images\\e2e1e0d7-b0a8-4f41-958b-75728f7cac82.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg",
-      "PackagePath": "staticwebassets\\images\\e90d0435-9bc0-45d7-93e1-8f553c10025e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg",
-      "PackagePath": "staticwebassets\\images\\faa940fc-6251-4dc3-844d-1a6a49fa98a4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\fc3d9679-e392-48fe-bd06-55a1879ac2f2.jpg",
-      "PackagePath": "staticwebassets\\images\\fc3d9679-e392-48fe-bd06-55a1879ac2f2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg",
-      "PackagePath": "staticwebassets\\images\\fe71084f-df02-4f9d-9d53-2ab8814fbdb2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\ffd612bb-b6a6-4662-9f8b-c61747ebcaa3.png",
-      "PackagePath": "staticwebassets\\images\\ffd612bb-b6a6-4662-9f8b-c61747ebcaa3.png"
-    },
-    {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\foto1.jpg",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\foto1.jpg",
       "PackagePath": "staticwebassets\\images\\foto1.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\foto2.jpg",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\foto2.jpg",
       "PackagePath": "staticwebassets\\images\\foto2.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\foto3.jpg",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\foto3.jpg",
       "PackagePath": "staticwebassets\\images\\foto3.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\laptop.jpg",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\hp1.jpg",
+      "PackagePath": "staticwebassets\\images\\hp1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\hp2.jpg",
+      "PackagePath": "staticwebassets\\images\\hp2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\images (1).jpg",
+      "PackagePath": "staticwebassets\\images\\images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\iphone_14_blue.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone_14_blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\laptop.jpg",
       "PackagePath": "staticwebassets\\images\\laptop.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\noimage.jpg",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\lenovo1.jpg",
+      "PackagePath": "staticwebassets\\images\\lenovo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\noimage.jpg",
       "PackagePath": "staticwebassets\\images\\noimage.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\images\\products\\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png",
-      "PackagePath": "staticwebassets\\images\\products\\b5897e5e-9e9e-4cd7-ad81-75c4d30a7064.png"
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\images\\samsung_qe32q50ae_747396_34-0100-0134.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung_qe32q50ae_747396_34-0100-0134.jpg"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\altin\\OneDrive\\Desktop\\ProjektiGit\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Naim\\OneDrive\\Desktop\\TechStore\\TechStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TechStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TechStore.Microsoft.AspNetCore.StaticWebAssets.props",

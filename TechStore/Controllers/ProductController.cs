@@ -9,7 +9,7 @@ using TechStore.Services;
 using System;
 
 namespace TechStore.Controllers;
-
+[Authorize(Roles = "Manager,Admin")]
 public class ProductController : Controller
 {
     private readonly IProductRepository _productRepo;
@@ -26,7 +26,7 @@ public class ProductController : Controller
         _fileService = fileService;
         _auditLogRepo = auditLogRepo;
     }
-
+    
     public async Task<IActionResult> Index(int page = 1)
     {
         int pageSize = 5;

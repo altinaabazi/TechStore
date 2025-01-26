@@ -6,7 +6,7 @@ using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "User")]
     public class CartController : Controller
     {
         private readonly ICartRepository _cartRepo;
@@ -20,6 +20,7 @@ namespace TechStore.Controllers
             _productService=productService;
             _db = db;
         }
+      
         public async Task<IActionResult> AddItem(int productId, int qty = 1, int redirect = 0)
         {
             var cartCount = await _cartRepo.AddItem(productId, qty);

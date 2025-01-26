@@ -1,11 +1,6 @@
 ﻿@model TechStore.Models.Brand
 
-@{
-
-    ViewData["Title"] = "Create Brand";
-}
-
-<h2>Create Brand</h2>
+<h2>Create New Brand</h2>
 
 <form asp-action="Create" method="post">
     <div class="form-group">
@@ -21,9 +16,3 @@
     <button type="submit" class="btn btn-primary">Create</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

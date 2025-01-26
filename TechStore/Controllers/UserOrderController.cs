@@ -5,7 +5,8 @@ using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "User")]
+
     public class UserOrderController : Controller
     {
         private readonly IUserOrderRepository _userOrderRepo;

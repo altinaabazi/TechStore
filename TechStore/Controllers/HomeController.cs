@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TechStore.Models;
 using TechStore.Models.DTOs;
 
 namespace TechStore.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -19,7 +21,7 @@ namespace TechStore.Controllers
 
         public async Task<IActionResult> Index(string sterm = "", int brandId = 0, string sortOrder = "asc", int page = 1)
         {
-            int pageSize = 5; // Numri i produkteve për faqe
+            int pageSize = 8; // Numri i produkteve për faqe
 
             // Merrni produktet dhe brandet
             IEnumerable<Product> products = await _homeRepository.GetProducts(sterm, brandId);

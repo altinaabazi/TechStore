@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using TechStore.Models;
 
 namespace TechStore.Controllers
 {
+    [Authorize]
     public class OrderStatusController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +22,7 @@ namespace TechStore.Controllers
         }
 
         // GET: OrderStatus
+        [Authorize(Roles = "Manager,Admin")]
         public async Task<IActionResult> Index()
         {
               return _context.orderStatuses != null ? 
@@ -28,6 +31,7 @@ namespace TechStore.Controllers
         }
 
         // GET: OrderStatus/Details/5
+        [Authorize(Roles = "Manager,Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.orderStatuses == null)
@@ -45,6 +49,8 @@ namespace TechStore.Controllers
             return View(orderStatus);
         }
 
+        [Authorize(Roles = "Admin")]
+
         // GET: OrderStatus/Create
         public IActionResult Create()
         {
@@ -56,6 +62,8 @@ namespace TechStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Create([Bind("Id,StatusId,StatusName,Description")] OrderStatus orderStatus)
         {
             if (ModelState.IsValid)
@@ -68,6 +76,8 @@ namespace TechStore.Controllers
         }
 
         // GET: OrderStatus/Edit/5
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.orderStatuses == null)
@@ -88,6 +98,8 @@ namespace TechStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Edit(int id, [Bind("Id,StatusId,StatusName,Description")] OrderStatus orderStatus)
         {
             if (id != orderStatus.Id)
@@ -119,6 +131,8 @@ namespace TechStore.Controllers
         }
 
         // GET: OrderStatus/Delete/5
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.orderStatuses == null)
@@ -139,6 +153,8 @@ namespace TechStore.Controllers
         // POST: OrderStatus/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.orderStatuses == null)

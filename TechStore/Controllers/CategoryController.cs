@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TechStore.Models;
 using TechStore.Repositories;
 
 namespace TechStore.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly ICategoryRepository _catoRepo;
@@ -18,7 +20,7 @@ namespace TechStore.Controllers
             _catoRepo = catoRepo;
             _auditLogRepo = auditLogRepo;
         }
-
+        [Authorize(Roles = "Manager,Admin")]
         // GET: Category
         public async Task<IActionResult> Index()
         {
@@ -26,6 +28,7 @@ namespace TechStore.Controllers
             return View(categories);
         }
 
+        [Authorize(Roles = "Manager,Admin")]
         // GET: Category/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -42,12 +45,14 @@ namespace TechStore.Controllers
 
             return View(category);
         }
+        [Authorize(Roles = "Admin")]
 
         // GET: Category/Create
         public IActionResult Create()
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
 
         // POST: Category/Create
         [HttpPost]
@@ -73,6 +78,7 @@ namespace TechStore.Controllers
             }
             return View(category);
         }
+        [Authorize(Roles = "Admin")]
 
         // GET: Category/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -90,6 +96,7 @@ namespace TechStore.Controllers
 
             return View(category);
         }
+        [Authorize(Roles = "Admin")]
 
         // POST: Category/Edit/5
         [HttpPost]
@@ -128,6 +135,7 @@ namespace TechStore.Controllers
 
             return View(category);
         }
+        [Authorize(Roles = "Admin")]
 
         // GET: Category/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -145,6 +153,7 @@ namespace TechStore.Controllers
 
             return View(category);
         }
+        [Authorize(Roles = "Admin")]
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

@@ -1788,3 +1788,7 @@ C:\Users\Erjon\desktop\New folder\TechStore\TechStore\obj\Debug\net7.0\refint\Te
 C:\Users\Erjon\desktop\New folder\TechStore\TechStore\obj\Debug\net7.0\TechStore.pdb
 C:\Users\Erjon\desktop\New folder\TechStore\TechStore\obj\Debug\net7.0\TechStore.genruntimeconfig.cache
 C:\Users\Erjon\desktop\New folder\TechStore\TechStore\obj\Debug\net7.0\ref\TechStore.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Microsoft.Bcl.Memory.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Naim\OneDrive\Desktop\TechStore\TechStore\bin\Debug\net7.0\StackExchange.Redis.dll

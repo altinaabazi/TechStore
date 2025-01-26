@@ -32,8 +32,8 @@
                  
 
                     </li>
-                   
-                    @if (User.IsInRole(Roles.Admin.ToString()))
+
+                    @if (User.IsInRole(Roles.Admin.ToString()) || User.IsInRole(Roles.Manager.ToString()))
                     {
                        
                         <li class="nav-item">

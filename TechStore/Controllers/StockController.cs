@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TechStore.Models;
 using TechStore.Models.DTOs;
 using TechStore.Repositories;
-
+[Authorize(Roles = "Manager,Admin")]
 public class StockController : Controller
 {
     private readonly IStockRepository _stockRepo;

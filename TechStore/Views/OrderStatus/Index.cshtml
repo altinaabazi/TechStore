@@ -1,4 +1,5 @@
-﻿@model IEnumerable<TechStore.Models.OrderStatus>
+﻿@using TechStore.Constants;
+@model IEnumerable<TechStore.Models.OrderStatus>
 
 @{
  Layout = "_AdminLayout";
@@ -7,7 +8,10 @@
 
 <h2>OrderStatus</h2>
 
-<a asp-action="Create" class="btn btn-primary my-2">Add New OrderStatus</a>
+ @if (User.IsInRole(Roles.Admin.ToString()))
+    {
+      <a asp-action="Create" class="btn btn-primary my-2">Add New OrderStatus</a>
+    }
 
 @if (Model?.Count() > 0)
 {
@@ -27,8 +31,11 @@
                     <td>@brand.Description</td>
                     <td>
                         <a asp-action="Details" asp-route-id="@brand.Id" class="btn btn-info btn-sm">Details</a>
-                        <a asp-action="Edit" asp-route-id="@brand.Id" class="btn btn-success btn-sm">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@brand.Id" class="btn btn-danger btn-sm" onclick="return window.confirm('Are you sure?')">Delete</a>
+                        @if (User.IsInRole(Roles.Admin.ToString()))
+                        {
+                            <a asp-action="Edit" asp-route-id="@brand.Id" class="btn btn-success btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@brand.Id" class="btn btn-danger btn-sm" onclick="return window.confirm('Are you sure?')">Delete</a>
+                        }
                     </td>
                 </tr>
             }

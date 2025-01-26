@@ -7,11 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TechStore.Data;  // Sigurohuni që të keni shtuar këtë përdorim nëse përdorni Data nga një projekt tjetër
+using TechStore.Constants;
 
 namespace TechStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Manager")]
     public class AdminController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -87,6 +88,7 @@ namespace TechStore.Areas.Admin.Controllers
         // POST: API - Create a new user
         [HttpPost]
         [Route("api/admin/create-user")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateUser([FromBody] CreateUserModel model)
         {
             if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
@@ -133,6 +135,8 @@ namespace TechStore.Areas.Admin.Controllers
         // PUT: API - Update user information
         [HttpPut]
         [Route("api/admin/update-user")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> UpdateUser([FromBody] UpdateUserModel model)
         {
             var user = await _userManager.FindByIdAsync(model.Id);
@@ -168,10 +172,38 @@ namespace TechStore.Areas.Admin.Controllers
 
             return Ok("User updated successfully.");
         }
+        // POST: Assign Role
+        [HttpPost]
+        [Route("api/admin/assign-role")]
+        [Authorize(Roles = "Admin")]
+
+        public async Task<IActionResult> AssignRole([FromBody] RoleAssignmentModel model)
+        {
+            var user = await _userManager.FindByIdAsync(model.UserId);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+
+            var validRoles = new[] { Roles.User.ToString(), Roles.Manager.ToString(), Roles.Admin.ToString() };
+            if (!validRoles.Contains(model.Role))
+            {
+                return BadRequest("Invalid role selected");
+            }
+
+            var currentRoles = await _userManager.GetRolesAsync(user);
+            await _userManager.RemoveFromRolesAsync(user, currentRoles);
+            await _userManager.AddToRoleAsync(user, model.Role);
+
+            return Ok("Role assigned successfully");
+        }
+
 
         // DELETE: API - Delete user
         [HttpDelete]
         [Route("api/admin/users/{id}")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> DeleteUser(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -208,6 +240,11 @@ namespace TechStore.Areas.Admin.Controllers
             public string Email { get; set; }
             public string PhoneNumber { get; set; }
             public string ProfilePicture { get; set; }
+            public string Role { get; set; }
+        }
+        public class RoleAssignmentModel
+        {
+            public string UserId { get; set; }
             public string Role { get; set; }
         }
     }
