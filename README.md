@@ -41,7 +41,7 @@ pasi qe te keni bere run komanden ne Visual Studio, ju duhet qe te beni run serv
 | user@gmail.com | User123- | Klient (Akses i thjesht) |
 
 ## Disa nga pamjet e projektit 
-
+https://github.com/user-attachments/assets/8048960f-8f2f-419c-a167-e3956838b727
 
 
 
